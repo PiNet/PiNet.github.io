@@ -25,7 +25,7 @@ Lets get started!
     window to make it larger or put it in full screen.   
     ![](/assets/images/install-ltsp-5.jpeg)
 
-5.  Enter ```wget --content-disposition http://pi-ltsp.net/downloadalpha```
+5.  Enter ```wget --content-disposition http://bit.ly/pinetbeta```
     and hit enter. This downloads the PiNet script. The main script is called ```pinet```.    
     ![](/assets/images/install-ltsp-7.jpeg)
 
