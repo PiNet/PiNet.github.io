@@ -7,7 +7,7 @@ Understanding kernels on the Raspberry Pi and PiNet
 -----------------------------------
 
 ***Note*** -  This guide is provided as is, it is unlikely any additional support will be offered for its contents if you get stuck. It is only designed for more advanced Raspberry Pi / Linux users. If you do have issues though, you could always try you luck at [contacting support](../support.html).   
-***Note 2*** - Take this document as draft level quality as it has not been double checked by all relavent experts yet, it is only what I have been able to gather myself over the past year.
+***Note 2*** - Take this document as draft level quality as it has not been double checked by all relevant experts yet, it is only what I have been able to gather myself over the past year.
 
 ##What is a kernel?
 "In computing, the kernel is a computer program that manages I/O (input/output) requests from software, and translates them into data processing instructions for the central processing unit and other electronic components of a computer. The kernel is a fundamental part of a modern computer's operating system." - [Wikipedia](http://en.wikipedia.org/wiki/Kernel_%28operating_system%29)        
@@ -54,7 +54,7 @@ Then use ```sudo mkinitramfs /boot/myAwesomeInitramfs3.18.img 3.18.6-v7+```.
 ##So where does PiNet come into all this?
 With PiNet, the kernel and initramfs version is extremely important.   
 Both live on the SD card with normal Raspberry Pi firmware and all the config files.   
-**PiNet currently uses the Raspbian team kernels as they contain the required extra modules (AUFS, SquashFS and NBD) which are missing from the Raspberry Pi foundation kernels.** - this is being worked on though.   
+**PiNet currently uses the Raspbian team kernels as they contain the required extra modules (OverlayFS or AUFS, SquashFS and NBD) which are missing from the Raspberry Pi foundation kernels.** - this is being worked on though.   
 You may notice after software updates to PiNet, sometimes your PiNet clients will randomly reboot just after hitting the login screen a single time. This is because they have detected they are running an out of date version of the kernel files (mismatch with the version on the server) and the server has automatically copied the new kernel and initramfs over to the SD card. It must restart the Pi to apply the update. It should only happen a single time for each SD card on a new kernel update.   
    
 ##I am impatient and want to try the new kernel features right now!   

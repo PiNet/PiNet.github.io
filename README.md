@@ -2,3 +2,21 @@
 The PiNet documentation website is built using Jekyll. If you would like to contribute to the documentation, please check [here](http://pinet.org.uk/articles/CONTRIBUTING.html).
     
 The main site can be found at [http://PiNet.org.uk](http://PiNet.org.uk).
+
+#Running site locally
+
+##Installing Jekyll and dependancies.
+To run the site locally, 
+- First [install Ruby](https://www.ruby-lang.org/en/documentation/installation/).   
+- Then install bundler ```gem install bundler```.   
+- Finally install Jekyll ```gem install jekyll```.   
+- Grab the documentation site ```git clone https://github.com/PiNet/PiNet.github.io.git```
+- Use bundler to make sure you have all the required gems ```bundle install --binstubs```
+
+##Running development server
+To run the development server - ```./bin/jekyll serve watch```   
+Then navigate to ```http://localhost:4000/``` in a web browser.
+
+
+#Licence
+The PiNet documentation is released under the MIT Licence. Check the [LICENCE](LICENCE) file for more information.

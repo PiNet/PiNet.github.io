@@ -7,6 +7,7 @@ layout: article
 PiNet is a system that has been in development for the past 2 years by [Andrew Mulholland](http://pi.gbaman.info/?page_id=90), a Computer Science student at Queens University, Belfast.   
 It was designed for schools/organisations to setup and manage Raspberry Pi networks, to replicate similar systems already in place for Windows networks.   
 The software/documentation is **completely free and open source** and has been built with guidance from educators across the world. A list of all those that have helped make this project possible can be found [here](thanks.html).   
+Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore these. The site contains over 500 lines of text and over 150 images, so the upgrade may take some time.
 
 ![](/assets/images/desktop-sonic-pi.jpeg)   
 
