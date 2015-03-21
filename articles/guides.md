@@ -25,6 +25,7 @@ The software/documentation is **completely free and open source** and has been b
 
 ##[General features](general-features.html)
 
+### - [Key information](key-info.html)
 ### - [Installing additional software](installation/installing-software.html)  
 ### - [Configuring automatic backups](backups/backups.html)
 ### - [Collecting students work](collect-work.html)  
