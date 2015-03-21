@@ -18,5 +18,5 @@ To run the development server - ```./bin/jekyll serve watch```
 Then navigate to ```http://localhost:4000/``` in a web browser.
 
 
-#Licence
-The PiNet documentation is released under the MIT Licence. Check the [LICENCE](LICENCE) file for more information.
+#License
+The PiNet documentation is released under the MIT License. Check the [LICENSE](LICENSE) file for more information.
