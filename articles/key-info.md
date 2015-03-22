@@ -11,6 +11,8 @@ This page contains some key information for PiNet that may be useful, especially
 - PiNet is licensed under the [GNU General Public License version 2](https://github.com/PiNet/PiNet/blob/dev/LICENSE).
 - PiNet documentation is licensed under the [MIT license](https://github.com/PiNet/PiNet.github.io/blob/master/LICENSE).
 - Both licenses allow the full PiNet system to be used in commercial and non commercial environments.
+- PiNet sets up the Raspberry Pis as **fat clients!** Not thin clients! Fat clients do all the processing locally on the Raspberry Pi, meaning you have full access to all the local hardware features like the GPIO pins and the camera module port.
+- PiNet is based on the [Linux Terminal Server Project](http://www.ltsp.org/).   
 
 ##Hardware requipments
 - The server must be able to reliably run Ubuntu 14.04 and have a gigabit ethernet port. There are no minimum hardware requirements provided, but a machine with at least 2gb of RAM is recommended.
