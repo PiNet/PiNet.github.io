@@ -1,6 +1,6 @@
 ---
-title: PiNet, A system for setting up and managing a classroom set of Raspberry Pis.
-layout: default
+title: "PiNet, a centralised user accounts and file storage system for a Raspberry Pi classroom."
+layout: article
 ---
 
 Updating the SD card image

@@ -1,5 +1,5 @@
 ---
-title: "PiNet, a system for setting up and managing a classroom set of Raspberry Pis."
+title: "PiNet, a centralised user accounts and file storage system for a Raspberry Pi classroom."
 layout: article
 ---
 
