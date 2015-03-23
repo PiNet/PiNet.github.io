@@ -48,4 +48,5 @@ Finally when the installation is complete you must copy the generated SD card bo
 1. [Installing PiNet](installing-PiNet.html)
 1. [Copying files to SD card](sd-card-copy.html)
 
-Once completed, you may want to play with some of the other options in PiNet, the full documentation list can be found back on the [guides page](../guides.html).
+Once completed, you may want to play with some of the other options in PiNet, the full documentation list can be found back on the [guides page](../guides.html).   
+If you were previously running a Raspi-LTSP server wish to migrate to a new PiNet server, check out the [user migration guide](../manage-users/migration.html)   
