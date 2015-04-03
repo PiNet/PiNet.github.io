@@ -16,4 +16,5 @@ in tools.
 - [Deleting a user](deleting-users.html)  
 - [Changing a users password](change-password.html)  
 - [Userstanding staff and sudo options](staff-sudo.html)  
-- [Migrating user data (for moving to a new PiNet server)](migration.html)
+- [Migrating user data (for moving to a new PiNet server)](migration.html)   
+- [Import users from CSV file](csv-import.html)   

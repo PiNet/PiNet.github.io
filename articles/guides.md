@@ -22,7 +22,8 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 ###  - [Deleting a user](manage-users/deleting-users.html)  
 ###  - [Changing a users password](manage-users/change-password.html)  
 ###  - [Userstanding staff and sudo options](manage-users/staff-sudo.html)  
-###  - [Migrating user data (for moving to a new PiNet server)](manage-users/migration.html)
+###  - [Migrating user data (for moving to a new PiNet server)](manage-users/migration.html)   
+###  - [Import users from CSV file](manage-users/csv-import.html)   
 
 ##[General features](general-features.html)
 
