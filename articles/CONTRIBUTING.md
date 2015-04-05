@@ -18,8 +18,8 @@ Don't worry, it is very easy to pick up, [here is a handy guide to get your star
    
 Github's own text editor, Atom is a great text editor to write markdown with, it has a nice live markdown renderer built in.   
 You can download Atom from [here](https://atom.io/).   
-All the markdown files end in .md and are stored in the [articles folder](https://github.com/PiNet/PiNet.github.io/tree/master/articles).
-Open you open a markdown file, hit ```ctrl``` + ```shift``` + ```m``` to open the markdown renderer beside the text editor.   
+All the markdown files end in .md and are stored in the [articles folder](https://github.com/PiNet/PiNet.github.io/tree/master/articles).   
+Once you open a markdown file, hit ```ctrl``` + ```shift``` + ```m``` to open the markdown renderer beside the text editor.   
 You will also want to disable ```Remove Trailing Whitespace``` from the ```Whitespace``` package in Atom. To do this, open Atom preferences, select packages, search for ```whitespace```, select the package settings and uncheck ```Remove Trailing Whitespace```.   
    
 ##I am completely new to Github!
