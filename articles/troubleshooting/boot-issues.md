@@ -24,6 +24,11 @@ As the server IP address is saved in the cmdline.txt file on the SD card, make s
 ###Can you ping the server?
 If you are dropped out into an ```initramfs``` shell, trying entering ```ping``` followed by the server IP address from above. You should get something like ```64 bytes from...``` which means it is receveing a reply. If you get ```Request timeout for icmp_seq...``` then there isn't a direct link between the Raspberry Pi and the server. Check your cables. Is there perhaps some sort of firewall in the middle?   
 
+###Check the OS installed correctly    
+On the server, open a terminal and enter ```ls /opt/ltsp/armhf```.
+If you see a folder titled ```debootstrap``` then this means the PiNet software failed to correctly build Raspbian. This usually happens because the internet drops out half way through or your network is blocking access to part of the Raspbian repositories.   
+To fix this issue, it is highly recommended you start from the start again, reinstalling Ubuntu then PiNet to make sure everything is cleared out.   
+If it continues to fail, try installing PiNet using a different internet connection, perhaps try taking the server home?
 
 ##I have an error not listed here or suggestions aren't working
 If these suggestions don't help, you may want to contact [support](../support.html).
