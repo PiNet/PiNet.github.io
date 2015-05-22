@@ -33,11 +33,11 @@ In the 3.18 kernel release, overlayfs was renamed to overlay, which breaks LTSP 
 2. Copy initramfs to the folder ```cp initrd.img-3.18.0-trunk-rpi pi1Initrd/```.
 3. Change directory to the working folder ```cd pi1Initrd```.   
 4. Unzip the initramfs ```gzip -dc initrd.img-3.18.0-trunk-rpi  | cpio -id```.   
-5. Remove initramfs ```rm -f initrd.img-3.18.0-trunk-rpi```.
-6. Grab new script file ```wget http://bazaar.launchpad.net/~ltsp-upstream/ltsp/ltsp-trunk/download/head:/ltsp-20111101201947-dgapvhpfim127xu6-2/ltsp -O /home/$USER/ltsp-script```.
-7. Copy script to required location ```cp /home/$USER/ltsp-script /home/$USER/newBootFiles/pi1Initrd/scripts/init-bottom/ltsp```
-7. Zip the folder back up again ```find . | cpio -o -H newc | gzip -9 > ../initrd.img-3.18.0-trunk-rpi```.
-8. Repeat for Pi2 (initrd.img-3.18.0-trunk-rpi2)   
+5. Remove initramfs ```rm -f initrd.img-3.18.0-trunk-rpi```.   
+6. Grab new script file ```wget http://bazaar.launchpad.net/~ltsp-upstream/ltsp/ltsp-trunk/download/head:/ltsp-20111101201947-dgapvhpfim127xu6-2/ltsp -O /home/$USER/ltsp-script```.   
+7. Copy script to required location ```cp /home/$USER/ltsp-script /home/$USER/newBootFiles/pi1Initrd/scripts/init-bottom/ltsp```   
+7. Zip the folder back up again ```find . | cpio -o -H newc | gzip -9 > ../initrd.img-3.18.0-trunk-rpi```.   
+8. Repeat for Pi2 (initrd.img-3.18.0-trunk-rpi2)      
 
 ###Final steps
 The boot files should now be ready. Verify the cmdline files have 1.1.1.1 in them and that the config.txt files are correct. Then copy to an SD card and test.   
