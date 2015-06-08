@@ -19,6 +19,7 @@ Information
 - [Editing Raspbian outside of PiNet utility](editing-outside.html)
 - [PiNet Benchmarks](benchmarks.html)   
 - [Using SSH to connect to the Raspberry Pis](ssh-information.html)
+- [Custom config.txt file](custom-config-file.html)
 
 Advanced options
 -----
