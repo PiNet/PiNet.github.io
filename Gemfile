@@ -7,3 +7,4 @@ gem "jekyll", "~> 2.5.3"
 # gem install iconv -- --with-iconv-dir=~/.rvm/usr
 gem "iconv"
 gem "albino"
+gem "jekyll-sitemap"
