@@ -92,7 +92,7 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 900px; }
+    max-width: 900px; }
 
 .clear {
   clear: both; }
@@ -121,8 +121,10 @@ h2 {
   body {
     background: none; }
 
+  .headline {
+    padding: 0; }
   .headline img {
-    width: 112px; }
+    max-width: 100%; }
   .headline h1 {
     font-size: 60px; }
 
@@ -132,15 +134,10 @@ h2 {
 @media (max-width: 480px) {
   body {
     background: none; }
-
-  .headline {
-    padding: 0; }
     .headline h1 {
       line-height: 60px;
       padding-top: 85px;
       font-size: 30px; }
-    .headline img {
-      width: 100px; }
 
   .container-fluid footer {
     padding-left: 0px;
