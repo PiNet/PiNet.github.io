@@ -6,6 +6,10 @@ layout: article
 #Thanks
 A huge number of people have helped make PiNet possible. I have tried to list as many as possible below, but if I have forgotten anyone, please let me know!   
 ##Development/code support
+###PiNet core development team
+- [Andrew Mulholland (aka @gbaman1)](https://twitter.com/gbaman1)
+- [Tim Golden (aka @tjguk)](https://twitter.com/tjguk)
+
 ###LTSP development team
 - [Alkis Georgopoulos (aka alksig)](https://wiki.ubuntu.com/AlkisGeorgopoulos)
 - Vagrant Cascadian (aka Vagrantc)   
@@ -63,3 +67,4 @@ There are way too many people to mention here! You all know who you are, you too
 ###Artwork
 - [Andy Hunt](http://www.andyhunt.com/)
 - [Paul Beech (aka @Guru)](https://twitter.com/guru)
+- [Amy Mather (aka @MiniGirlGeek)](https://twitter.com/minigirlgeek)
