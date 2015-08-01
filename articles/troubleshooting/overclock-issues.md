@@ -6,7 +6,9 @@ layout: article
 Overclocking issues
 ======
 
-PiNet by default overclocks your Raspberry Pis to "Turbo" mode.   
+**No longer an issue with current versions of PiNet**
+
+Previous version of PiNet by default overclocks your Raspberry Pis to "Turbo" mode.   
 This provides a boost to performance with little if any tradeoff.   
 This is supported by the Raspberry Pi foundation and for most users is not an issue.   
    
