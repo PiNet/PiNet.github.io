@@ -2,13 +2,14 @@
 title: "PiNet, a centralised user accounts and file storage system for a Raspberry Pi classroom."
 layout: article
 ---
-#Supported addon boards
+# Supported addon boards
 
    
 PiNet supports a number of different addon boards, although some need to be installed separately via the Python-hardware package available in the extra software menu.     
 **Warning** - There is no guarentees all boards below will work as advertised with PiNet due to subtle differences from Raspbian.   
 All boards with a * have been tested with PiNet and confirmed to work.   
       
+## Boards
       
 | Board name  | Manufacturer | Supported? | Supported since |    
 | ------------- | ------------- | ------------- | ------------- |     
@@ -25,6 +26,7 @@ All boards with a * have been tested with PiNet and confirmed to work.
 | Sense HAT * | Raspberry Pi Foundation  | Yes, built in | PiNet Release 1.0.15 | 
 | Piano HAT  | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
 | Explorer HAT  | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
+| Explorer HAT Pro  | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
 | Microstack Accelerometer  | Microstack  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
 | Microstack GPS  | Microstack  | No, requires UART | N/A | 
 | PiFace Digital  | PiFace  | No, requires SPI | N/A | 
@@ -35,6 +37,7 @@ All boards with a * have been tested with PiNet and confirmed to work.
 | Play HAT  | 4Tronix  | No, no library available from PyPI | N/A | 
 | 16-Channel Servo HAT  | Adafruit  | No, no library available from PyPI | N/A | 
 | Capactive touch HAT | Adafruit  | No, no library available from PyPI | N/A | 
+    
     
 ## The board I am looking for is not on that list?   
 There are hundreds of addon boards for the Raspberry Pi out there, it would be pretty difficult for me to research and test them all.   
