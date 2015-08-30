@@ -2,12 +2,13 @@
 title: "PiNet, a centralised user accounts and file storage system for a Raspberry Pi classroom."
 layout: article
 ---
-Supported addon boards
-=====
-PiNet supports a number of different addon boards, although some need to be installed separately via the Python-hardware package available in the extra software menu.   
-If you see any boards missing or have any changes to suggest to the list, drop us an [email or a tweet](../support.html).   
+#Supported addon boards
+
+   
+PiNet supports a number of different addon boards, although some need to be installed separately via the Python-hardware package available in the extra software menu.     
 **Warning** - There is no guarentees all boards below will work as advertised with PiNet due to subtle differences from Raspbian.   
 All boards with a * have been tested with PiNet and confirmed to work.   
+      
       
 | Board name  | Manufacturer | Supported? | Supported since |    
 | ------------- | ------------- | ------------- | ------------- |     
@@ -35,3 +36,10 @@ All boards with a * have been tested with PiNet and confirmed to work.
 | 16-Channel Servo HAT  | Adafruit  | No, no library available from PyPI | N/A | 
 | Capactive touch HAT | Adafruit  | No, no library available from PyPI | N/A | 
     
+## The board I am looking for is not on that list?   
+There are hundreds of addon boards for the Raspberry Pi out there, it would be pretty difficult for me to research and test them all.   
+In general, if it just uses the GPIO pins in their standard input/output modes, then it should work without issue.   
+If the board uses I2C then it should work on PiNet Release 1.0.15 and above.   
+If the board uses SPI, UART or custom kernel modules, it is unlikely to work without a decent bit of fiddling around with configuration files and is by default, not supported.
+    
+If you see any boards missing or have changes to suggest to the list, drop us an [email or a tweet](../support.html). 
