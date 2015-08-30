@@ -43,6 +43,7 @@ All boards with a * have been tested with PiNet and confirmed to work.
 There are hundreds of addon boards for the Raspberry Pi out there, it would be pretty difficult for me to research and test them all.   
 In general, if it just uses the GPIO pins in their standard input/output modes, then it should work without issue.   
 If the board uses I2C then it should work on PiNet Release 1.0.15 and above.   
-If the board uses SPI, UART or custom kernel modules, it is unlikely to work without a decent bit of fiddling around with configuration files and is by default, not supported.
+If the board uses SPI, UART or custom kernel modules, it is unlikely to work without a decent bit of fiddling around with configuration files unless it follows the official Raspberry Pi Foundation HATs spec and includes an EEPROM with the device tree fragment.   
+If it has an EEPROM with the device tree fragment, it should be able to use the other interfaces (for example SPI) as device tree is enabled with PiNet.   
     
 If you see any boards missing or have changes to suggest to the list, drop us an [email or a tweet](../support.html). 
