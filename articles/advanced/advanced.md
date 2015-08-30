@@ -20,6 +20,7 @@ Information
 - [PiNet Benchmarks](benchmarks.html)   
 - [Using SSH to connect to the Raspberry Pis](ssh-information.html)
 - [Custom config.txt file](custom-config-file.html)
+- [Supported addon boards](supported-addon-boards.html)
 
 Advanced options
 -----

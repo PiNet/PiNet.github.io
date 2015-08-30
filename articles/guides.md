@@ -39,6 +39,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 ###  - [PiNet Benchmarks](advanced/benchmarks.html)
 ###  - [Editing Raspbian outside of PiNet](advanced/editing-outside.html)  
 ###  - [Boot files explanation](advanced/boot-files.html)  
+###  - [Supported addon boards](advanced/supported-addon-boards.html)
 ###  - [Understanding network technologies](advanced/network-technologies.html)
 ###  - [Changing the default desktop and login screen background](advanced/change-background.html)
 ###  - [Changing keyboard mapping](advanced/keyboard-layout.html)
