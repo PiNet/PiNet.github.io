@@ -24,7 +24,7 @@ All boards with a * have been tested with PiNet and confirmed to work.
 | Piglow   | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.15 |  
 | Skywriter HAT  | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.15 | 
 | Sense HAT * | Raspberry Pi Foundation  | Yes, built in | PiNet Release 1.0.15 | 
-| Piano HAT  | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
+| Piano HAT * | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
 | Explorer HAT  | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
 | Explorer HAT Pro  | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
 | Microstack Accelerometer  | Microstack  | Yes, via Python-hardware package | PiNet Release 1.0.16 | 
