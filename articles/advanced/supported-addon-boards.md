@@ -6,7 +6,8 @@ layout: article
 
    
 PiNet supports a number of different addon boards, although some need to be installed separately via the Python-hardware package available in the extra software menu.     
-**Warning** - There is no guarentees all boards below will work as advertised with PiNet due to subtle differences from Raspbian.   
+**Warning** - There is no guarentees all boards below will work as advertised with PiNet due to subtle differences from Raspbian.  
+    
 All boards with a * have been tested with PiNet and confirmed to work.   
       
 ## Boards
