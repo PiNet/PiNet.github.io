@@ -17,8 +17,8 @@ All boards with a * have been tested with PiNet and confirmed to work.
 | Pibrella *  | Pimoroni/Cyntech  | Yes, via Python-hardware package | PiNet Release 1.0.0 |  
 | Unicorn HAT * | Pimoroni  | Yes, via Python-hardware package | PiNet Release 1.0.0 | 
 | LEDBorg * | PiBorg  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
-| Ryantech motor driver  | Ryantech  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
-| Traffic HAT  | Ryantech  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
+| Ryanteck motor driver  | Ryanteck  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
+| Traffic HAT  | Ryanteck  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
 | PiDie  | 4Tronix  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
 | PicoBorg  | PiBorg  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
 | PiStop  | Meltwater  | Yes, uses standard RPi.GPIO library | PiNet Release 1.0.0 | 
