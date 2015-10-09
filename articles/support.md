@@ -14,7 +14,15 @@ Is a few ways you can contact me.
 ### Email
 The simple one. I will try and reply within a week (although is usually more like an hour). If I don't reply within a week, email me again!
 
-Email address is  *support at pi-ltsp dot net*
+Email address is  *support at pi-ltsp dot net*   
+    
+If it is a technical query, please include.
+- PiNet version you are running   
+- Which release channel are you using (stable, dev or custom)   
+- Is PiNet installed on a dedicated machine or a virtual machine   
+- Your position (student, teacher, technician, Pi enthusiast, etc)   
+- Any weird customisations    
+- School or organisation name (optional)   
 
 ### IRC
 If you want instant help, I sit on freenode IRC in the #ltsp channel quite a lot and you can drop me a private message. Handle on there is gbaman.  
