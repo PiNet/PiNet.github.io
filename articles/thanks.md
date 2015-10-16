@@ -45,7 +45,7 @@ There are way too many people to mention here! You all know who you are, you too
 - [Rob Jones (aka @robjones_cowley)](https://twitter.com/robjones_cowley)
 
 ##Bug finding
- - [Vincent Lee](https://vlee.me/)
+ - [Vincent Lee](https://vlee.me.uk/)
  - [Liam Nicholson](http://lia.mn/)
  - [Oli Gryphius](http://fuglu.org/)
  - Ryan Rowe
