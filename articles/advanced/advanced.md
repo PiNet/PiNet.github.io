@@ -21,6 +21,7 @@ Information
 - [Using SSH to connect to the Raspberry Pis](ssh-information.html)
 - [Custom config.txt file](custom-config-file.html)
 - [Supported addon boards](supported-addon-boards.html)
+- [PiNet metrics](metrics.html)
 
 Advanced options
 -----
