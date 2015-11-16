@@ -21,7 +21,7 @@ Many schools and organisations use proxies to route the web traffic through a fi
 In Ubuntu, search for ```proxy``` and select ```Network```    
 ![Searching for proxy](/assets/images/ubuntu-proxy-1.jpg)   
 Then enter your network settings and click ```Apply system wide```.   
-![Adding proxy settings](/assets/images/ubuntu-proxy-2)   
+![Adding proxy settings](/assets/images/ubuntu-proxy-2.jpg)   
 
 ### Raspbian   
 Adding proxy settings into Raspbian is a little more complicated. Make sure to read over the [Editing outside](editing-outside.html) guide as it includes a little more information about directly editing the Raspbian chroot.   
