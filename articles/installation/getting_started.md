@@ -42,7 +42,8 @@ Installing
 
 Once you have the needed equipment, you will need to install Ubuntu 14.04 onto your server computer and then install PiNet.
 Overall this takes roughly 2-3 hours. Of that 2-3 hours, you are required at the computer for 20-30 minutes.   
-Finally when the installation is complete you must copy the generated SD card boot files to a blank SD card.
+Finally when the installation is complete you must copy the generated SD card boot files to a blank SD card.   
+If your school or organisation uses any form of web filtering or a proxy to access the internet, make sure to first read the [web filtering information page](advanced/web-filtering.html).   
 
 1. [Installing Ubuntu server](installing-ubuntu.html)
 1. [Installing PiNet](installing-PiNet.html)

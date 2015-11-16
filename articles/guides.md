@@ -46,7 +46,8 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 ###  - [Understanding kernels on the Raspberry Pi and PiNet](advanced/kernels.html)
 ###  - [Using SSH to connect to the Raspberry Pis](advanced/ssh-information.html)   
 ###  - [Custom config.txt file](advanced/custom-config-file.html)
-###  - [PiNet metrics](advanced/metrics.html)
+###  - [PiNet metrics](advanced/metrics.html)   
+###  - [Web filtering](advanced/web-filtering.html)
 
 ##Other
 
