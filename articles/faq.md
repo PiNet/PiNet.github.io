@@ -20,7 +20,7 @@ To put this into perspective, standard gigabit Ethernet provides 1000mbit/s... 1
 So although it is possible, the amount of work required to integrate common drivers etc into the initramfs and get it all tested massively outweighs the benefits, so no, PiNet does not support wifi.
 
 - ###Is it much slower than running standard Raspbian off a normal SD card?
-Other than bootup, for most application no. Bootup takes roughly 30 seconds longer on most networks. For more detailed benchmarks, check out the [benchmark section](advanced/benchmarks).
+Other than bootup, for most application no. Bootup takes roughly 30 seconds longer with the Raspberry Pi 1 (including B+) on most networks. The new Raspberry Pi 2 though boots just as fast as from an SD card, off the PiNet server. For more detailed benchmarks, check out the [benchmark section](advanced/benchmarks).
 
 - ###Is the Raspberry Pi model B+ supported by PiNet?
 Yes! As long as you are running at least version 0.7.2.
@@ -30,5 +30,10 @@ Yes! As long as you are running at least version 0.10.42.
 
 - ###I was running Release 0.10.25 and can't update to newer versions?   
 There was a bug in version 0.10.25 which broke the auto updater. If you applied this update, please manually redownload PiNet using ```wget --content-disposition http://pi-ltsp.net/downloadalpha``` followed by ```sudo bash pinet```. This should manually apply the most recent update.   
+
+- ###I see "LTSP" mentioned in a number of places, what is it?   
+The [Linux Terminal Server Project (LTSP)](http://www.ltsp.org/) is the base that PiNet is built upon. It includes a number of scripts for setting up and managing thin and fat clients. It has the issue though that the documentation for it is limited and is all managed from the commandline. Another major issue is that the Raspbian SD card images provided by the Raspberry Pi Foundation are very heavily tweaked versions of base Raspbian. These tweaks need to all be added afterwards when simply using LTSP itself.   
+To get around the difficulties of LTSP for new users and to add the required tweaks, PiNet (previously RaspberryPi-LTSP) was born. It adds an easy to use graphical frontend to the system and includes a number of extra features including shared folders, student work handin and automated backups.   
+PiNet was built with help and support from a number of the awesome LTSP developers. The list can be found in the [thanks section](thanks.html).
 
 ![](/assets/images/raspi-desktop.jpeg)
