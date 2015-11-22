@@ -29,7 +29,7 @@ If it is a technical query, please include.
 If you want instant help, I sit on freenode IRC in the #ltsp channel quite a lot and you can drop me a private message. Handle on there is gbaman.  
 You can launch the freenode webchat site from [here](https://webchat.freenode.net/).   
 Remember to enter the channel as #ltsp!   
-Do keep in mind, I am not always on IRC and you don't see me on there, best bet is email or Twitter.   
+I am not always on IRC though, so if I am there, drop me a message. If not, best bet not to bug the other busy developers on there and drop me an email or tweet instead.      
 
 ### Twitter
 You can also drop a tweet to the project twitter account  [@PiNetDev](https://twitter.com/pinetdev).
