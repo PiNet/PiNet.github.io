@@ -25,6 +25,7 @@ This page contains some key information for PiNet that may be useful, especially
   - Raspberry Pi 1 Model A
   - Raspberry Pi 1 Model A+
   - Raspberry Pi 1 Compute Module
+  - Raspberry Pi Zero    
 - Hardware that will never be supported as clients includes
   - Banana Pi
   - Odroid C1
