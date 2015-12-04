@@ -17,7 +17,7 @@ Before emailing, please make sure you have tried all the troubleshooting documen
 
 Email address is  *support at pinet dot org dot uk*   
     
-If it is a technical query, please include.
+If it is a technical query, please include.    
 - PiNet version you are running   
 - Which release channel are you using (stable, dev or custom)   
 - Is PiNet installed on a dedicated machine or a virtual machine   
