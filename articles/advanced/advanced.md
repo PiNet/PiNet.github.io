@@ -22,7 +22,8 @@ Information
 - [Custom config.txt file](custom-config-file.html)
 - [Supported addon boards](supported-addon-boards.html)
 - [PiNet metrics](metrics.html)   
-- [Web filtering information](web-filtering.html)
+- [Web filtering information](web-filtering.html)   
+- [Additional languages](additional-languages.html)   
 
 Advanced options
 -----

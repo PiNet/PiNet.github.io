@@ -48,6 +48,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 ###  - [Custom config.txt file](advanced/custom-config-file.html)
 ###  - [PiNet metrics](advanced/metrics.html)   
 ###  - [Web filtering](advanced/web-filtering.html)
+###  - [Additional languages](advanced/additional-languages.html)   
 
 ##Other
 
