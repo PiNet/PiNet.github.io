@@ -14,7 +14,7 @@ Sometimes it is ok to just have the Raspbian operating system (chroot) available
 By default, the Raspbian chroot will pull the locale settings from the main Ubuntu server, but if you wish to change the locales used on Raspbian, or add multiple options, follow the instructions below.   
 **Note** - Not all software may have available localisation for your language, many still only support English.   
 1. Open a terminal on the server.   
-2. Enter ```sudo ltsp-chroot``` to enter the Raspbian chroot.   
+2. Enter ```sudo ltsp-chroot --arch armhf``` to enter the Raspbian chroot.   
 3. To launch the standard Debian locales selector, enter ```dpkg-reconfigure locales```.   
 4. Select any locales you wish to add to the chroot using the space key. Make sure to take note of the full locale name. Once you are finished, hit enter.   
 5. Select your default locale you wish to use. **Warning** - LTSP sometimes ignores the default locale, so a few extra steps are needed.     

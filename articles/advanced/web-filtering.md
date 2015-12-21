@@ -4,15 +4,22 @@ layout: article
 ---
 # Web filtering  
 If your school or organisation uses web filtering/blocking, it may be a good idea to manually whitelist the domains PiNet needs to access to install and build the Raspbian chroot.   
-- raspbian.org   
-- raspberrypi.org   
-- github.com   
-- bitbucket.org   
-- bluej.org   
-- bit.ly     
-- ubuntu.com   
+- http://raspbian.org/ {Critical}    
+- http://raspberrypi.org {Critical}   
+- https://github.com {Critical}   
+- https://bitbucket.org {Recommended}   
+- http://bluej.org {Recommended}
+- http://bit.ly {Highly Recommended}   
+- https://secure.pinet.org.uk {Recommended}   
     
 If you are unable to whitelist these domains, consider doing the initial installation on an unfiltered internet connection. It is recommended that you connect your PiNet server to an internet connection with access to these domains at least once every 3 months for updates.      
+   
+## Testing tool   
+We have a simple testing tool that you can use before installing PiNet to check if any of the sites required are inaccessible.    
+To use it, open a terminal (on a computer running Linux, with Python 3 installed) and enter   
+```wget https://secure.pinet.org.uk/downloads/checkInternet.py && python3 checkInternet.py```    
+You should see an output similar to the screenshot below. If any of the sites show false beside them, then that may be an issue, especially the Critical and Highly Recommended sites.   
+![](../../assets/images/web-tester.png)     
 
 ## Proxies   
 Many schools and organisations use proxies to route the web traffic through a filter. Although proxies are not officially supported with PiNet, it is easy to manually add them to Raspbian and Ubuntu.  
