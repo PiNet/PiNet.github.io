@@ -5,11 +5,11 @@ layout: article
 
 Shared folders
 -----------------------------   
-   
-<iframe width="480" height="360" src="https://www.youtube-nocookie.com/embed/LCT7qqncFUY?rel=0" frameborder="0" allowfullscreen></iframe>   
     
 PiNet is able to set up shared folders with different permission levels for students and staff.   
 Shared folders appear on the left hand bar in the Raspberry Pi file manager.   
+   
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/LCT7qqncFUY?rel=0" frameborder="0" allowfullscreen></iframe>   
 
 ##Permission levels
 There are 2 built in permission levels currently for shared folders
