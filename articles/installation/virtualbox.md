@@ -5,7 +5,7 @@ layout: article
 
 Virtualbox with PiNet
 ---------------------------------------
-**Note this method is not officially supported although should work anyway.**   
+**Note this method although should work fine, is not official supported.**   
    
 Virtualbox provides a free, simple and easy to use solution for virtualising your PiNet server.   
 
@@ -68,8 +68,8 @@ VirtualBox has a number of ways to create a virtual network card for the server.
 ![Virtualbox](/assets/images/virtualbox-10.jpeg)  
 2. For installation, it is recommended you keep the ```Attached to``` option as ```NAT```.
 3. Once installation is complete, **you must** switch to a ```Bridged adapter```.
-![Virtualbox](/assets/images/virtualbox-11.jpeg) 
-4. Once bridged adapter is selected, select your network card from the dropdown box. Most computers come with 2 network cards, a wired Ethernet card (you should be using this one) and a wireless card. **Make sure the wired Ethernet card is selected!**   
+![Virtualbox](/assets/images/virtualbox-11.jpeg)     
+4. Once bridged adapter is selected, select your network card from the dropdown box. Most computers come with 2 network    cards, a wired Ethernet card (you should be using this one) and a wireless card. **Make sure the wired Ethernet card is selected!**   
 If you do not know which is the wired and wireless card, Googling their names may help.
 
 ###Guest additions   

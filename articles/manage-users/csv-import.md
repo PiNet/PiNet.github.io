@@ -28,6 +28,7 @@ Username |
 
 An example CSV file can be found [here](/assets/images/csvExample.csv).
    
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/3v8U76s3kEs?start=22" frameborder="0" allowfullscreen></iframe>
    
 ##Importing CSV file
 

@@ -6,6 +6,9 @@ layout: article
 #Boot issues
 There are a number of reason your Raspberry Pi may fail to boot from the PiNet server.   
 
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/WPHsdXXR_Es?rel=0" frameborder="0" allowfullscreen></iframe>
+**Note the video above includes hard written transcriptions which may help with some commands.**   
+      
 ##Blank screen or rainbow screen
 If you get a blank screen or a rainbow screen, this is most likely to be 1 of 2 possible issues
 

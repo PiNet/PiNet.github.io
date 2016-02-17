@@ -16,7 +16,9 @@ PiNet comes with a number of preconfigured options for installing
 software or you can select “Install-Custom-package” and enter the name
 of the software. This is exactly the same as doing “apt-get install
 SoftwareName”.
-
+   
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/9OO2hrsw1Oo?rel=0" frameborder="0" allowfullscreen></iframe>   
+   
 1.  Select “Install-Program” and hit enter.    
     ![](/assets/images/image37.jpeg)   
 

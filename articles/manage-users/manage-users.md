@@ -4,7 +4,7 @@ layout: article
 ---
 
 ##Managing user accounts   
-![](/assets/images/manage-users-menu.jpg)    
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/3v8U76s3kEs?rel=0" frameborder="0" allowfullscreen></iframe>   
 The Manage user users submenu contains all the tools for working with the users and groups on the system.
 Although there are graphical tools available that perform similar functions, it is much quicker using the built
 in tools.
