@@ -35,7 +35,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 - ### [Shared folders](shared-folders/shared-folders.html)   
 - ### Epoptes classroom management software (Documentation not complete yet)   
 
-##[Advanced options](advanced/advanced.html)   
+## [Advanced options](advanced/advanced.html)   
 - ### [PiNet Benchmarks](advanced/benchmarks.html)   
 - ### [Editing Raspbian outside of PiNet](advanced/editing-outside.html)     
 - ### [Boot files explanation](advanced/boot-files.html)     
