@@ -57,7 +57,7 @@ up of a number of configuration files and boot files.
 
 -   **Vmlinuz-KERNEL** – The main PiNet kernel.
 
-###Additional files you may have
+### Additional files you may have
 
 -   **Kernel.img** – An untouched Raspbian kernel.
 

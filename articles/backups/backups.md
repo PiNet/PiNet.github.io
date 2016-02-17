@@ -19,7 +19,7 @@ You should not save backups onto the same hard drive as you installed
 Ubuntu and PiNet onto. Backups should be saved onto an external
 hard drive for example.
 
-##Configuring a backup
+## Configuring a backup
 
 1.  Select backup-Menu.    
     ![](/assets/images/image57.jpeg)

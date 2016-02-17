@@ -10,8 +10,8 @@ This guide is mainly written as a reminder for the PiNet team on the process of 
    
 **WARNING** - This guide was written mainly for myself to on steps to build the SD card boot files. The guide may be missing parts or may be out of date. This guide is not an officially supported piece of documentation, follow at your own risk.
 
-##Steps
-###Getting up to date files
+## Steps
+### Getting up to date files
 1. Enter chroot ```sudo ltsp-chroot```.
 2. Update the package lists ```apt-get update```.
 3. Make sure ```overlay``` is in ```/opt/ltsp/armhf/etc/initramfs-tools/modules```.
@@ -25,7 +25,7 @@ This guide is mainly written as a reminder for the PiNet team on the process of 
 9. Copy new firmware files ```cd /opt/ltsp/armhf/boot``` followed by ```cp -r bcm2708-rpi-b.dtb bcm2708-rpi-b-plus.dtb bcm2709-rpi-2-b.dtb bootcode.bin overlays start_cd.elf start.elf start_x.elf fixup_cd.dat fixup.dat fixup_x.dat /home/$USER/newBootFiles/``` then ```cd```.   
 10. Copy the kernels. Remember you will need to change the names if you are using a different version other than 3.18. ```cd /opt/ltsp/armhf/boot``` followed by ```cp vmlinuz-3.18.0-trunk-rpi vmlinuz-3.18.0-trunk-rpi2 initrd.img-3.18.0-trunk-rpi initrd.img-3.18.0-trunk-rpi2 /home/$USER/newBootFiles/``` then ```cd```.   
 
-###Adding OverlayFS support to boot files - No longer needed
+### Adding OverlayFS support to boot files - No longer needed
 This section is kept for reference but is no longer needed.   
    
 In the 3.18 kernel release, overlayfs was renamed to overlay, which breaks LTSP support for it. We must manually fetch a more up to date version of the script.
@@ -39,5 +39,5 @@ In the 3.18 kernel release, overlayfs was renamed to overlay, which breaks LTSP 
 7. Zip the folder back up again ```find . | cpio -o -H newc | gzip -9 > ../initrd.img-3.18.0-trunk-rpi```.   
 8. Repeat for Pi2 (initrd.img-3.18.0-trunk-rpi2)      
 
-###Final steps
+### Final steps
 The boot files should now be ready. Verify the cmdline files have 1.1.1.1 in them and that the config.txt files are correct. Then copy to an SD card and test.   

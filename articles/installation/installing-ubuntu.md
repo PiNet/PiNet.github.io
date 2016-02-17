@@ -3,7 +3,7 @@ title: "PiNet, a centralised user accounts and file storage system for a Raspber
 layout: article
 ---
 
-#Ubuntu
+# Ubuntu
 
 Linux itself is actually a family of different distributions, all their
 own Operating Systems but based on the Linux Kernel. Ubuntu is one of
@@ -15,9 +15,9 @@ software and security updates till April 2019.
 
 The codename for 14.04 is Trusty Tahr.
 
-#Installation
+# Installation
 
-##Creating Ubuntu Installation Disk
+## Creating Ubuntu Installation Disk
 First you need to create an installation media for installing Ubuntu on your server computer. This can be in the form of
 a disk or a USB flash drive. Creating and booting from a disk is easier for beginners.   
 Ubuntu have a number of guides for different operating systems for creating an Ubuntu 14.04 installation disk from 
@@ -27,7 +27,7 @@ Select the one you are going to create the installation DVD from. You will need 
 - [Mac](http://www.ubuntu.com/download/desktop/burn-a-dvd-on-mac-osx)   
 - [Ubuntu Linux](http://www.ubuntu.com/download/desktop/burn-a-dvd-on-ubuntu)   
 
-##Installing Ubuntu 14.04
+## Installing Ubuntu 14.04
 
 
 Please make sure your server machine has no important information left
@@ -82,7 +82,7 @@ Wired Ethernet is preferable for installation.
     from the drive and select “Restart now”.   
     ![](/assets/images/image10.jpeg)
 
-##Installing PiNet
+## Installing PiNet
 
 Now that Ubuntu is installed, you can move onto installing PiNet.   
 [Installing PiNet](installing-PiNet.html)

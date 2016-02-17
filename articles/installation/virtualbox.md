@@ -9,19 +9,19 @@ Virtualbox with PiNet
    
 Virtualbox provides a free, simple and easy to use solution for virtualising your PiNet server.   
 
-##Virtualisation... what is that?
+## Virtualisation... what is that?
 Virtualisation is basically running a second *virtual* computer inside (and at the same time as) your normal computer.   
 Each virtual install is completely separate from anything else, as the virtual hard drive is just a single file, you can delete the entire virtual operating system extremely easily.  
 Virtualisation should not be confused with multithreading or hyper-threading. These only run 1 operating system but allow you to run more than 1 program at a time.   
 Do note though, you need a slightly more powerful computer than if just installing Ubuntu directly to the internal hard drive (as it has to run your normally operating system and Ubuntu at the same time).   
 
-##Do I need a special type of computer?
+## Do I need a special type of computer?
 
 A duel core or quad core computer from the past 4-5 years with at least 4GB of ram is highly recommended.    
 If you run into issues with virtualisation (crashes or failing to load), you may want to check as hardware CPU virtualisation may have to be turned on in your BIOS. 
 On Intel based processors this is called ```Intel Virtualisation Technology``` or ```Intel-VT``` and on AMD processors it is called ```AMD-V```.
 
-##Ok, lets get started
+## Ok, lets get started
 
 1. Download Ubuntu 14.04 for your platform (32 bit or 64 bit, if in doubt download the 32 bit version) from [here](http://www.ubuntu.com/download/desktop/).
 2. Download Virtualbox platform package for your host operating system (aka Windows, Mac or Linux) from [here](https://www.virtualbox.org/wiki/Downloads). This should be what your computer is currently running.   
@@ -49,10 +49,10 @@ Once you have decided your size, select ```Create```.
 [Installing Ubuntu guide.](installing-ubuntu.html)   
 Once you are finished, check back here for changing key settings like networking settings. **This is essential or you system will not work!**
 
-##Configuring Virtualbox virtual machine
+## Configuring Virtualbox virtual machine
 There is a number of things you may want to change with the virtual machine.   
 To open the settings panel, right click the virtual machine in VirtualBox and select ```Settings...```   
-###CPUs
+### CPUs
 You can change the number of CPU cores the virtual machine has access to. By default virtualbox will only assign a single processor. If the computer you are using has many processor cores, it would be worth assigning more to the virtual machine.   
 **It is not recommended assigning any more than 50% of your CPU cores to the virtual machine unless you know what you are doing.**   
    
@@ -61,7 +61,7 @@ You can change the number of CPU cores the virtual machine has access to. By def
 2. Select the ```Processor``` subtab. Here you can drag the slider to select how many processor cores you wish to assign to the virtual machine.   
 ![Virtualbox](/assets/images/virtualbox-9.jpeg)   
 
-###Networking
+### Networking
 VirtualBox has a number of ways to create a virtual network card for the server. Each of them has their uses but also their issues.  
 **To use PiNet, you must change the network adapter from the default.**   
 1. After opening settings, select the ```Network``` tab.   
@@ -72,7 +72,7 @@ VirtualBox has a number of ways to create a virtual network card for the server.
 4. Once bridged adapter is selected, select your network card from the dropdown box. Most computers come with 2 network    cards, a wired Ethernet card (you should be using this one) and a wireless card. **Make sure the wired Ethernet card is selected!**   
 If you do not know which is the wired and wireless card, Googling their names may help.
 
-###Guest additions   
+### Guest additions   
 It can be a good idea to install the Virtualbox guest additions. These are additional software modules/drivers to improve compatibility with Virtualbox.   
 Once you install them, a few additional features are added, including support for bidirectional copy and paste support between the virtual machine and the host operating system, more importantly it adds the missing screen resolution detection modules for Ubuntu 14.04, allowing you to resize the screen.    
 To install them, launch the Ubuntu virtual machine, open a terminal and enter    

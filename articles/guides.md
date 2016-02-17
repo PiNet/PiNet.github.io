@@ -11,13 +11,13 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 
 ![](/assets/images/desktop-sonic-pi.jpeg)   
 
-##[Getting started](installation/getting_started.html)   
+## [Getting started](installation/getting_started.html)   
 - ### [Installing Ubuntu](installation/installing-ubuntu.html)    
 - ### [Installing PiNet](installation/installing-PiNet.html)   
 - ### [Copy boot files to SD card](installation/sd-card-copy.html)   
 - ### [Installing Ubuntu using VirtualBox (optional)](installation/virtualbox.html)   
 
-##[Managing users](manage-users/manage-users.html)   
+## [Managing users](manage-users/manage-users.html)   
 - ### [Creating a new user](manage-users/creating-users.html)   
 - ### [Deleting a user](manage-users/deleting-users.html)  
 - ### [Changing a users password](manage-users/change-password.html)  
@@ -25,7 +25,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 - ### [Migrating user data (for moving to a new PiNet server)](manage-users/migration.html)   
 - ### [Import users from CSV file](manage-users/csv-import.html)   
 
-##[General features](general-features.html)   
+## [General features](general-features.html)   
 
 - ### [Key information](key-info.html)   
 - ### [Installing additional software](installation/installing-software.html)   
@@ -39,7 +39,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 - ### [PiNet Benchmarks](advanced/benchmarks.html)   
 - ### [Editing Raspbian outside of PiNet](advanced/editing-outside.html)     
 - ### [Boot files explanation](advanced/boot-files.html)     
-- ### [Supported addon boards](advanced/supported-addon-boards.html)
+- ### [Supported addon boards](advanced/supported-addon-boards.html)    
 - ### [Understanding network technologies](advanced/network-technologies.html)   
 - ### [Changing the default desktop and login screen background](advanced/change-background.html)    
 - ### [Changing keyboard mapping](advanced/keyboard-layout.html)    
@@ -50,12 +50,12 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 - ### [Web filtering](advanced/web-filtering.html)   
 - ### [Additional languages](advanced/additional-languages.html)   
 
-##Other
+## Other
 
 - ### [Troubleshooting](troubleshooting/troubleshooting.html)   
 - ### [Frequently asked questions](faq.html)   
 
-##Contributing
+## Contributing
 All the documentation written in markdown can be found in the [Github repository](https://github.com/PiNet/PiNet.github.io).
 If you see **issues/typos/mistakes/etc** in this documentation please feel free to send in [pull requests](https://github.com/PiNet/PiNet.github.io/pulls) to fix them or open an [issue](https://github.com/PiNet/PiNet.github.io/issues).  
 If you want to **contribute** to the documentation (**please do!!**) then check out the [contributing guide](CONTRIBUTING.html)

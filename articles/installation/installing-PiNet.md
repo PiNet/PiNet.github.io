@@ -95,6 +95,6 @@ Lets get started!
     setting up an automatic backup of your students work to an external
     hard drive in case of hard drive failure.   
 
-##Copying to SD card
+## Copying to SD card
 Now that you have installed PiNet, you need to copy the boot files to an SD card.
 [Copy boot files to SD card](sd-card-copy.html)

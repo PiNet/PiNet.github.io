@@ -3,11 +3,11 @@ title: "PiNet, a centralised user accounts and file storage system for a Raspber
 layout: article
 ---
 
-#Getting started with PiNet
+# Getting started with PiNet
 
 ![](/assets/images/raspi-login.jpeg)
 
-##What is PiNet?
+## What is PiNet?
 PiNet is a free and open source project for helping schools set up and manage a Raspberry Pi classroom.   
 It has been developed alongside teachers with feedback from over 15 countries across the world.   
 Its key features include   
@@ -21,7 +21,7 @@ Its key features include
 The server software is installed on a computer running Ubuntu Linux 14.04 (which also is completely free). You must then connect the server and Raspberry Pis together by using a wired network.   
 **Note Wifi is not supported** - More information on WiFi [here](../faq.html).   
    
-##Ok, I am interested... How do I get started?
+## Ok, I am interested... How do I get started?
 First you need to grab the required equipment.   
 - An old desktop/laptop computer for the server with a gigabit ethernet port.   
 - A network switch (requires at least a single gigabit or 1000/100/10mbit port for the server).   
@@ -29,7 +29,7 @@ First you need to grab the required equipment.
 - Some Ethernet cables.    
 - A Raspberry Pi and SD card with a size of at least 128mb (so yes, 2gb, 4gb, 8gb etc cards will also work).   
 
-###I dont have a spare old desktop/laptop computer sitting around currently..    
+### I dont have a spare old desktop/laptop computer sitting around currently..    
 **It is not recommended to use this method in a production environment and it is not officially supported.**   
 You can also install a virtual copy of Ubuntu onto another computer to try it out first. This comes with the advantage it is all self contained. If you don't like PiNet, you can just delete the entire
 virtual machine (is contained in a single file).    

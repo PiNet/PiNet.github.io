@@ -15,13 +15,13 @@ NFS is an older standard that its competitor NBD. It has been proved reliable fo
 and is still the default for underlying LTSP for Ubuntu and Debian.
 Keep in mind though PiNet's default is NBD.
    
-###Advantages   
+### Advantages   
 - Old and reliable.
 - Well supported on everything.
 - All changes made to Raspbian from the server are live! No need to recompress the operating system.
 - Very useful for testing and trying out different changes
 
-###Disadvantages
+### Disadvantages
 - No compression enabled by default with LTSP so slower.
 - Lacking some newer error detection etc.
 
@@ -31,11 +31,11 @@ NBD
 NBD is a much newer file sharing technology that is the default for PiNet.   
 With NBD, we have enabled squashfs compression to reduce network traffic by roughly 40%!   
 
-###Advantages
+### Advantages
 - Raspberry Pis boos faster and load large applications faster.
 - Considerably less network traffic transferred across the network due to compression (roughly 40% less).
 
-###Disadvantages
+### Disadvantages
 - Changes are not live. You must recompress the operating system after each change with takes 5-10 minuets.
 - After a recompress of the operating system, all clients need rebooted. 
 
