@@ -49,6 +49,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 - ### [PiNet metrics](advanced/metrics.html)    
 - ### [Web filtering](advanced/web-filtering.html)   
 - ### [Additional languages](advanced/additional-languages.html)   
+- ### [Custom branches/repositories](advanced/custom-branches-repositories.html)     
 
 ## Other
 

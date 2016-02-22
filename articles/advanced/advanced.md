@@ -31,3 +31,4 @@ Advanced options
 - [Changing the default desktop and login screen background](change-background.html)
 - [Changing keyboard mapping](keyboard-layout.html)
 - [Understanding kernels on the Raspberry Pi and PiNet](kernels.html)
+- [Custom branches/repositories](custom-branches-repositories.html) 
