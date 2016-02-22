@@ -23,7 +23,5 @@ You can do this, although it is a little complicated.
 3. Open the PiNet config file (found at /etc/pinet) on the PiNet server and add 2 new values at the bottom, ```RepositoryBase=``` and ```RawRepositoryBase=```. 
    **It is essential that you also have ```RawRepositoryBase=```!**     
 4. Set these to your Github account root, then that is it. For example for myself it would be   
-```
-RepositoryBase=https://github.com/gbaman   
-RawRepositoryBase=https://raw.github.com/gbaman   
-```
+```RepositoryBase=https://github.com/gbaman```   
+```RawRepositoryBase=https://raw.github.com/gbaman```   
