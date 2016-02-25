@@ -10,5 +10,6 @@ Troubleshooting
    
 ## Troubleshooting guides
 
-- [Bootup/startup issues](boot-issues.html)
-- [Some applications (like Minecraft) frequently crashing or failing to start](overclock-issues.html)
+- [Bootup/startup issues](boot-issues.html)   
+- [PiBoot folder issues](piboot.html)   
+- [Some applications (like Minecraft) frequently crashing or failing to start](overclock-issues.html)   
