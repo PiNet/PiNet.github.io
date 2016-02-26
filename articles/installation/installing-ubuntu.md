@@ -71,7 +71,8 @@ Wired Ethernet is preferable for installation.
    
 10. Now enter your login details. These will be the administer login
     details on the server. It is recommended you leave the computer name
-    at default.   
+    at default. When selecting a username, note this will be the admin account and shouldn't be used with the Raspberry Pis.
+    You can create yourself an account for day to day use later on. **Do not set the username to ```teacher``` or ```pupil``` as this may cause issues later!**       
     ![](/assets/images/image8.jpeg)
 
 11. Now wait for Ubuntu to install. This normally takes roughly 10-20
