@@ -3,7 +3,8 @@ title: "PiNet Jessie testing with Raspberry Pi 3!"
 layout: blog
 ---
 
-![](/assets/images/jessie.jpg)
+![](/assets/images/jessie.jpg)   
+(Credit to [Raspberry Pi Foundation](https://www.raspberrypi.org/blog/raspbian-jessie-is-here/) for picture above)
 
 ## PiNet Jessie   
 For the past few months, I have been working on getting Raspbian Jessie across to PiNet. Right now, PiNet uses Raspbian Wheezy, moving from Wheezy to Jessie requires a full Raspbian rebuild which logistically is a pain. The Raspberry Pi Foundation for example only provided new SD card images with no way to directly upgrade from Wheezy to Jessie.   
