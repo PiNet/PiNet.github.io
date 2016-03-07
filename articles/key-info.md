@@ -20,7 +20,8 @@ This page contains some key information for PiNet that may be useful, especially
   - Raspberry Pi 1 Model B revision 1 - Can sometimes have issues due to very limited RAM.
   - Raspberry Pi 1 Model B revision 2
   - Raspberry Pi 1 Model B+
-  - Raspberry Pi 2 Model B
+  - Raspberry Pi 2 Model B   
+  - Raspberry Pi 3 Model B (PiNet Jessie only)    
 - Raspberry Pi based hardware not officially supported includes
   - Raspberry Pi 1 Model A
   - Raspberry Pi 1 Model A+
