@@ -23,7 +23,8 @@ Information
 - [Supported addon boards](supported-addon-boards.html)
 - [PiNet metrics](metrics.html)   
 - [Web filtering information](web-filtering.html)   
-- [Additional languages](additional-languages.html)   
+- [Additional languages](additional-languages.html)    
+- [Remote Applications](remote-apps.html)
 
 Advanced options
 -----
