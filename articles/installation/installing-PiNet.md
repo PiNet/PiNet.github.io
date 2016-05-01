@@ -5,7 +5,7 @@ layout: article
 
 Installing PiNet
 ---------------------
-**Warning** - Make sure you are installing PiNet onto a fresh installation. **Do not** install PiNet onto an Ubuntu installation running other services as PiNet can not be easily uninstalled.    
+##### **Warning** - Make sure you are installing PiNet onto a fresh installation. **Do not** install PiNet onto an Ubuntu installation running other services as PiNet can not be easily uninstalled.    
    
 Now you have an Ubuntu 14.04 server setup, it is time to actually install PiNet. PiNet is run through a terminal.
 This allows you use it locally or even run the software over SSH!
