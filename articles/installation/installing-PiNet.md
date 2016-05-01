@@ -97,5 +97,4 @@ Lets get started!
     hard drive in case of hard drive failure.   
 
 ## Copying to SD card
-Now that you have installed PiNet, you need to copy the boot files to an SD card.
-[Copy boot files to SD card](sd-card-copy.html)
+Now that you have installed PiNet, you need to [copy the boot files to an SD card](sd-card-copy.html).
