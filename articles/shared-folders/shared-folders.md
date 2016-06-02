@@ -5,19 +5,20 @@ layout: article
 
 Shared folders
 -----------------------------   
-
-![](/assets/images/Shared-folders-8.jpeg)     
+    
 PiNet is able to set up shared folders with different permission levels for students and staff.   
 Shared folders appear on the left hand bar in the Raspberry Pi file manager.   
+   
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/LCT7qqncFUY?rel=0" frameborder="0" allowfullscreen></iframe>   
 
-##Permission levels
-There are 2 built in permission levels currently for shared folders
-1. **Pupil read only** - This means pupils can only read from the folder, they can't save files there or edit any of the files there unless they save a copy into their area.   
-2. **Pupil read/write** - This means pupils can read from the folder but also edit and save new files into it. Be careful with this as anyone can edit anything!   
+## Permission levels
+There are 2 built in permission levels currently for shared folders    
+1. **Pupil read only** - This means pupils can only read from the folder, they can't save files there or edit any of the files there unless they save a copy into their area.     
+2. **Pupil read/write** - This means pupils can read from the folder but also edit and save new files into it. Be careful with this as anyone can edit anything!      
     
-**Staff can read and write to any shared folder.**
+**Staff can read and write to any shared folder.**   
 
-##Creating a shared folder
+## Creating a shared folder
 
 1. Select ```Shared-folders``` from the main menu.   
 ![](/assets/images/Shared-folders-1.jpeg)   

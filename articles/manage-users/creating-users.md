@@ -8,6 +8,8 @@ Adding new users
 ----
 Adding users is very simple and can be done one by one or via batch import.
 
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/3v8U76s3kEs?rel=0" frameborder="0" allowfullscreen></iframe>     
+
 1.  From the main menu, select Manage-Users.   
     ![](/assets/images/image41.jpeg)
 

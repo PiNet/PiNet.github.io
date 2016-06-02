@@ -9,7 +9,7 @@ Changing PiNet background
 PiNet comes with the amazing stars background photograph taken by [John Lemieux](https://www.flickr.com/photos/newdimensionfilms/7108632527/).   
 ![](/assets/images/desktop-background.png)   
 
-##Changing this image
+## Changing this image
 If you want to change it to your own custom background image, the image is stored in 2 places.    
 - Desktop background - ```/opt/ltsp/armhf/usr/share/images/desktop-base/PiNet.png```.
 - Login screen background - ```/opt/ltsp/armhf/usr/share/ldm/themes/raspi/bg.png```.

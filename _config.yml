@@ -2,8 +2,8 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 exclude: [bin, CNAME, Gemfile, Gemfile.lock, README.md]
-permalink: /:title
-markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title.html
+markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 gems:

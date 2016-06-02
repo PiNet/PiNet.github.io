@@ -19,6 +19,12 @@ Information
 - [Editing Raspbian outside of PiNet utility](editing-outside.html)
 - [PiNet Benchmarks](benchmarks.html)   
 - [Using SSH to connect to the Raspberry Pis](ssh-information.html)
+- [Custom config.txt file](custom-config-file.html)
+- [Supported addon boards](supported-addon-boards.html)
+- [PiNet metrics](metrics.html)   
+- [Web filtering information](web-filtering.html)   
+- [Additional languages](additional-languages.html)    
+- [Remote Applications](remote-apps.html)
 
 Advanced options
 -----
@@ -26,3 +32,4 @@ Advanced options
 - [Changing the default desktop and login screen background](change-background.html)
 - [Changing keyboard mapping](keyboard-layout.html)
 - [Understanding kernels on the Raspberry Pi and PiNet](kernels.html)
+- [Custom branches/repositories](custom-branches-repositories.html) 

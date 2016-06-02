@@ -3,7 +3,7 @@ title: "PiNet, a centralised user accounts and file storage system for a Raspber
 layout: article
 ---
 
-#Updating the SD card image
+# Updating the SD card image
 
 You may need to update the SD card image if the server IP address changes or if a new Kernel is released. It is usually a good idea
 to update your SD cards with the new boot files every few months.

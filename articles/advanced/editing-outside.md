@@ -26,7 +26,7 @@ The key things you need to know are
 
 - The raw boot files before configuration changes have been made can be found at [here](https://github.com/gbaman/PiNet/tree/master/boot)
 
-##An example - Deleting Minecraft Pi edtion
+## An example - Deleting Minecraft Pi edtion
 
 Lets say you want to run a command in the Raspbian operating system, which is stored on the server (and each Pi boots from).   
 For example, lets say you want to remove Minecraft-Pi edition (which is installed by default).   
