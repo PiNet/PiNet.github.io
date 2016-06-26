@@ -3,7 +3,7 @@ title: "PiNet, a centralised user accounts and file storage system for a Raspber
 layout: article
 ---
    
-##Introduction   
+## Introduction   
 PiNet is a system that has been in development for the past 2 years by [Andrew Mulholland](http://blog.gbaman.info/?page_id=90), a Computer Science student at Queens University, Belfast.   
 It was designed for schools/organisations to setup and manage Raspberry Pi networks, to replicate similar systems already in place for Windows networks.   
 The software/documentation is **completely free and open source** and has been built with guidance from educators across the world. A list of all those that have helped make this project possible can be found [here](thanks.html).   
