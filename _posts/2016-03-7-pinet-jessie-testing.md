@@ -6,6 +6,12 @@ layout: blog
 ![](/assets/images/jessie.jpg)   
 (Credit to [Raspberry Pi Foundation](https://www.raspberrypi.org/blog/raspbian-jessie-is-here/) for picture above)
 
+### Update - Raspberry Pi 3    
+Since the release of PiNet Jessie, Raspberry Pi 3 support has been backported to PiNet Wheezy stable/development builds. So if the only reason you would use the experimental PiNet Jessie over PiNet Wheezy is Raspberry Pi 3 support, it is recommended you stick with PiNet Wheezy for now.    
+    
+## Warning    
+PiNet Jessie support is still extremely experimental. It still contains many bugs/issues and **is unsuitable for a production environment, for example a school used on a daily basis.**
+
 ## PiNet Jessie   
 For the past few months, I have been working on getting Raspbian Jessie across to PiNet. Right now, PiNet uses Raspbian Wheezy, moving from Wheezy to Jessie requires a full Raspbian rebuild which logistically is a pain. The Raspberry Pi Foundation for example only provided new SD card images with no way to directly upgrade from Wheezy to Jessie.   
 With PiNet though, I would prefer if it would be possible to make the upgrade as seamless as possible, avoiding the need for a full PiNet server reinstall.   
@@ -25,6 +31,8 @@ A great question, quite a few actually.
 - Lots of bug fixes.   
 
 ## Raspberry Pi 3!    
+*As noted above, this support (although using slightly older kernels) is now included in PiNet Wheezy (stable and development) releases.*   
+
 Yes, you read right, PiNet Jessie supports Raspberry Pi 3 Model B! Unfortunately not using Wifi [(see FAQ for why not)](http://pinet.org.uk/articles/faq.html#does_it_support_wifi).   
 It should simply work out of the box with PiNet and a micro sd card. Although the Raspberry Pi 3 does have support for PXE style network booting without an SD card, right now the required supporting firmware and documentation from Raspberry Pi Foundation is not yet available.   
 Interested in some benchmarks with the Raspberry Pi 3 vs older Pis on PiNet? Check out the newly updated [benchmarks page](http://pinet.org.uk/articles/advanced/benchmarks.html).   

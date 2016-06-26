@@ -29,7 +29,7 @@ Yes! As long as you are running at least version 0.7.2.
 Yes! As long as you are running at least version 0.10.42.   
 
 - ### Is the Raspberry Pi 3 (model B) supported by PiNet?   
-Partially right now. The Raspberry Pi 3 model B is supported in PiNet 1.1.12 and beyond. This is currently only available in the [jessiedev branch](advanced/custom-branches-repositories.html).        
+Yes! As long as you are running at least version 1.1.8 (support included in PiNet Wheezy and experimental PiNet Jessie).  s     
 
 - ### I was running Release 0.10.25 and can't update to newer versions?   
 There was a bug in version 0.10.25 which broke the auto updater. If you applied this update, please manually redownload PiNet using ```wget --content-disposition http://pi-ltsp.net/downloadalpha``` followed by ```sudo bash pinet```. This should manually apply the most recent update.   

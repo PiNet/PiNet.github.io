@@ -18,7 +18,7 @@ Its key features include
 - Automated backups - Automatically backup all students work to an external drive periodically.   
 - Many more small features like batch user import, classroom management software integration etc.     
 
-The server software is installed on a computer running Ubuntu Linux 14.04 (which also is completely free). You must then connect the server and Raspberry Pis together by using a wired network.   
+The server software is installed on a computer running Ubuntu Linux 14.04 or 16.04 (recommended). Ubuntu is completely free. You must then connect the server and Raspberry Pis together by using a wired network.   
 **Note Wifi is not supported** - More information on WiFi [here](../faq.html).   
    
 ## Ok, I am interested... How do I get started?
@@ -40,7 +40,7 @@ For more info on Virtualbox setup with PiNet, check the [Virtualbox install guid
 Installing
 -----------
 
-Once you have the needed equipment, you will need to install Ubuntu 14.04 onto your server computer and then install PiNet.
+Once you have the needed equipment, you will need to install Ubuntu 16.04 onto your server computer and then install PiNet.
 Overall this takes roughly 2-3 hours. Of that 2-3 hours, you are required at the computer for 20-30 minutes.   
 Finally when the installation is complete you must copy the generated SD card boot files to a blank SD card.   
 If your school or organisation uses any form of web filtering or a proxy to access the internet, make sure to first read the [web filtering information page](../advanced/web-filtering.html).   

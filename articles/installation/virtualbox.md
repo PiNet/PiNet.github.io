@@ -23,7 +23,7 @@ On Intel based processors this is called ```Intel Virtualisation Technology``` o
 
 ## Ok, lets get started
 
-1. Download Ubuntu 14.04 for your platform (32 bit or 64 bit, if in doubt download the 32 bit version) from [here](http://www.ubuntu.com/download/desktop/).
+1. Download Ubuntu 16.04 for your platform (32 bit or 64 bit, if in doubt download the 32 bit version) from [here](http://www.ubuntu.com/download/desktop/).
 2. Download Virtualbox platform package for your host operating system (aka Windows, Mac or Linux) from [here](https://www.virtualbox.org/wiki/Downloads). This should be what your computer is currently running.   
 3. Once downloaded, run the installer selecting all the default options.   
 4. Once installed, launch Virtualbox.    
