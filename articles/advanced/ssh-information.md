@@ -5,7 +5,10 @@ layout: article
 
 Understanding SSH on the Raspberry Pis
 ======
-By default, Raspberry Pis using PiNet do not by default allow ssh access.   
+
+** Note that the below information is no longer valid with current versions of PiNet. SSH into the Pis is no longer easily possible.**
+   
+By default, Raspberry Pis using PiNet do not allow ssh access.   
 It though can be extremely useful for debugging to be able to access a Raspberry Pi over SSH.   
 There is though a few things you need to be aware of.   
 - The PiNet users are **not stored on the Raspberry Pis**. They are stored on the server.   
