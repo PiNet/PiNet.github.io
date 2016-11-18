@@ -36,3 +36,19 @@ including ```apt-get purge minecraft-pi``` which deletes Minecraft-Pi edition. W
 Finally, **you must recompress the operating system!** You have 2 options on how to do this.   
 1. From the commandline with ```ltsp-update-image /opt/ltsp/armhf```.
 2. From PiNet in the ```Other menu``` and ```NBD-recompress```.
+
+## Executing code on all user accounts.   
+Although you can add files/folders/desktop shortcuts etc to /etc/skel so will appear on new users home folders, adding to current users is a little more difficult.    
+     
+**Warning** Running any of the code below is dangerous. Only use it if you know how to use BASH and have dry run tested your code is actually doing what you expect, using for example echo.   
+   
+```bash
+cut -d: -f1,3 /etc/passwd | egrep ':[0-9]{4}$' | cut -d: -f1 | while IFS= read -r user
+do
+  echo "$user is great."
+  # Use the $user variable to get a username each iteration.
+  # For example, to copy a file to every user you could use. This would copy it to the root of their home folder.
+  # cp "/awesomefile.txt" "/home/$user/awesomefile.txt"
+done
+```   
+Then make sure you also add the file to /etc/skel, which is used as a skeleton for creating new accounts.
