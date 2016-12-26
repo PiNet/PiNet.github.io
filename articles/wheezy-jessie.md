@@ -24,22 +24,21 @@ Great, there are 2 separate processes depending on if you already have a PiNet s
 
 #### I already have a PiNet server setup running PiNet Wheezy that I want to upgrade.   
 1. Open a terminal on your PiNet server and type the following commands.   
-``` bash  
-cd ~  
-wget https://raw.githubusercontent.com/PiNet/PiNet/wheezy-alpha/pinet  
-wget https://raw.githubusercontent.com/PiNet/PiNet/wheezy-alpha/Scripts/pinet-functions-python.py   
-sudo mv pinet-functions-python.py /usr/local/bin  
-sudo bash pinet   
-```
+
+  ```cd ~```  
+  ```wget https://raw.githubusercontent.com/PiNet/PiNet/wheezy-alpha/pinet```   
+  ```wget https://raw.githubusercontent.com/PiNet/PiNet/wheezy-alpha/Scripts/pinet-functions-python.py```      
+  ```sudo mv pinet-functions-python.py /usr/local/bin```    
+  ```sudo bash pinet```   
+
 2. Follow onscreen instructions to upgrade. Make sure to select Alpha as your release channel.   
    
 #### I want to set up a fresh PiNet server with PiNet Jessie.  
 1. Follow the normal [installation instructions for Ubuntu](installation/installing-ubuntu.html), then open a terminal and run the following commands.   
-```bash   
-cd ~
-wget --content-disposition http://links.pinet.org.uk/jessie-alpha-pinet
-sudo bash pinet   
-```   
+  ```cd ~```   
+  ```wget --content-disposition http://links.pinet.org.uk/jessie-alpha-pinet```   
+  ```sudo bash pinet```    
+
 2. Follow onscreen instructions for the installation. Make sure to select Alpha as your release channel.    
 
 ## Found a bug or got feedback on PiNet Jessie?   
