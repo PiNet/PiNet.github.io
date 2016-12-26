@@ -44,4 +44,4 @@ Awesome, thanks! Before you do so though, a few warnings.
 - **Do not use in a production environment!** - This includes for day to day use in schools with classes or workshops. Small afterschool clubs or internal testing is fine though, but make sure to have a backup in place just in case!   
 - If you find some bugs, please open a [Github issue](https://github.com/PiNet/PiNet/issues). It is very important you mention you are testing PiNet Jessie.   
 
-If you are still happy to go ahead with testing, install PiNet as normal, then follow the documentation on the [custom branches](http://pinet.org.uk/articles/advanced/custom-branches-repositories.html) page to switch over to the ```jessiedev``` branch.   
+If you are still happy to go ahead with testing, install PiNet as normal, then follow the documentation on the [PiNet Wheezy vs Jessie](http://pinet.org.uk/articles/wheezy-jessie.html) page.     
