@@ -4,10 +4,11 @@ layout: article
 ---
 
 # PiNet Wheezy vs PiNet Jessie
+Wheezy and Jessie are words thrown around the Raspberry Pi community frequently. What do they mean and why should you care?   
 
 ## What is this Wheezy/Jessie you speak of?
-Wheezy and Jessie are both codenames for the Debian operating system releases.   
-As Raspbian is based off Debian, it too uses these same codenames to describe the releases.   
+Wheezy and Jessie are both codenames for the Debian operating system releases. As Raspbian is based off Debian, it too uses these same codenames to describe the releases. Think of them kind of like Windows release (XP, Vista, 7, 8 10 etc).     
+
 - Raspbian Wheezy - Released back in 2012 and is classed as very stable, but no longer receiving security updates etc.     
 - Raspbian Jessie - Released near the end of 2015, all future updates are only provided for Jessie. Jessie though can suffer from the odd stability issue when new updates are released for it.   
 
@@ -16,15 +17,13 @@ PiNet has until December 2016, only supported Raspbian Wheezy. There were a numb
 As of right now (26th Dec 2016), PiNet Jessie is available in Alpha only and **is not recommended** for production use (in a school for example). Over time, the release will make its way to the Beta channel and eventually Stable.   
 
 ## What has changed between PiNet Wheezy and PiNet Jessie?   
-The short answer, a lot!   
-The longer answer can be found in the [initial release changelog](https://github.com/PiNet/PiNet/commit/07cb9dd5a721bca20167c41c0c0454092b8ff0f0).
+The short answer, a lot! The slightly longer answer can be found in the [initial release changelog](https://github.com/PiNet/PiNet/commit/07cb9dd5a721bca20167c41c0c0454092b8ff0f0).   
 
 ## I want to help test out PiNet Jessie Alpha   
 Great, there are 2 separate processes depending on if you already have a PiNet server setup.   
 
-#### I already have a PiNet server setup running PiNet Wheezy that I want to upgrade.   
+### I already have a PiNet server setup running PiNet Wheezy that I want to upgrade.   
 1. Open a terminal on your PiNet server and type the following commands.   
-
   ```cd ~```  
   ```wget https://raw.githubusercontent.com/PiNet/PiNet/wheezy-alpha/pinet```   
   ```wget https://raw.githubusercontent.com/PiNet/PiNet/wheezy-alpha/Scripts/pinet-functions-python.py```      
@@ -33,7 +32,7 @@ Great, there are 2 separate processes depending on if you already have a PiNet s
 
 2. Follow onscreen instructions to upgrade. Make sure to select Alpha as your release channel.   
    
-#### I want to set up a fresh PiNet server with PiNet Jessie.  
+### I want to set up a fresh PiNet server with PiNet Jessie.  
 1. Follow the normal [installation instructions for Ubuntu](installation/installing-ubuntu.html), then open a terminal and run the following commands.   
   ```cd ~```   
   ```wget --content-disposition http://links.pinet.org.uk/jessie-alpha-pinet```   
