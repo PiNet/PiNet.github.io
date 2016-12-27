@@ -11,7 +11,7 @@ layout: article
 PiNet is a free and open source project for helping schools set up and manage a Raspberry Pi classroom.   
 It has been developed alongside teachers with feedback from over 15 countries across the world.   
 Its key features include   
-- Network based user accounts - *Any student can sit down at any Raspberry Pi and log in.   
+- Network based user accounts - Any student can sit down at any Raspberry Pi and log in.   
 - Network based operating system - All Raspberry Pis boot a single master Raspbian operating system.   
 - Shared folders - Easy to use shared folder system for teachers and students.    
 - Work collection system - Simple work collection/submittion system to allow students to hand in work.   
