@@ -18,11 +18,11 @@ Its key features include
 - Automated backups - Automatically backup all students work to an external drive periodically.   
 - Many more small features like batch user import, classroom management software integration etc.     
 
-The server software is installed on a computer running Ubuntu Linux 14.04 or 16.04 (recommended). Ubuntu is completely free. You must then connect the server and Raspberry Pis together by using a wired network.   
+The server software is installed on a computer running Ubuntu Linux 14.04 (legacy) or 16.04 (recommended). Ubuntu is completely free. You must then connect the server and Raspberry Pis together by using a [wired network](hardware.html).   
 **Note Wifi is not supported** - More information on WiFi [here](../faq.html).   
    
 ## Ok, I am interested... How do I get started?
-First you need to grab the required equipment.   
+First you need to grab the required equipment. Full details of this can be found on the [hardware page](hardware.html).      
 - An old desktop/laptop computer for the server with a gigabit ethernet port.   
 - A network switch (requires at least a single gigabit or 1000/100/10mbit port for the server).   
 - A router (for a standalone network) or connection to your schools network.   

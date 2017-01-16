@@ -12,6 +12,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 ![](/assets/images/desktop-sonic-pi.jpeg)   
 
 ## [Getting started](installation/getting_started.html)   
+- ### [Hardware for PiNet](installation/hardware.html)   
 - ### [Installing Ubuntu](installation/installing-ubuntu.html)    
 - ### [Installing PiNet](installation/installing-PiNet.html)   
 - ### [Copy boot files to SD card](installation/sd-card-copy.html)   
