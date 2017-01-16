@@ -17,6 +17,7 @@ There are though some limited use cases where the server does need to be powerfu
 
 ### So what type of PC hardware do I need for my PiNet server?    
 This is an extremely wide ranging question and it is impossible to say. A few rough guidelines though for a class set (20) Raspberry Pis would be.  
+
 #### Minimum   
 - Single core 1GHz processor (Intel Celeron or greater)   
 - 1GB of RAM   
@@ -56,7 +57,7 @@ Although 100mbit/s (Fast Ethernet) may work for 2-3 Raspberry Pis, it is not sup
 The first piece of equipment you are going to need is an old router. Chances are you have an old one sitting around the house.   
 Routers typically have 4-5 Gigabit Ethernet ports on the back and make for a great starting point to try out PiNet with a few Pis.   
 Even for the larger setup though, you still need a router somewhere on the network. The router is used for DHCP (assigning IP addresses to each device on the network). If though you are connecting in to another network (for example a school network), it will already have a router.   
-** WARNING ** - Never have more than 1 router (or DHCP server) on a network, they will conflict.   
+**WARNING** - Never have more than 1 router (or DHCP server) on a network, they will conflict.   
 
 ### Switch  
 Networks are made up of network switches. They typically have 8, 16, 24 or 48 ports and will operate at the speeds above. With some switches, all the ports run at the same speed.   
@@ -66,8 +67,8 @@ For example, it is very common to find network switches which have 22 100mbit/s 
 
 ### Networking rules   
 When you get beyond a single switch and router, your core network becomes extremely important. A few rules to consider when building your network.   
-- All core links should be at 1 Gigabit - This includes from server to switch and from switch to any other switches.
-- Never daisy-chain switches more than 2 levels - Daisy chaining switches can create sizable bottlenecks if done wrong. A general rule of thumb is to stick to 2 levels max from the source of the data. For example, a main core switch and one additional level off it.   
+- All core links should be at 1 Gigabit - This includes from server to switch and from switch to any other switches.   
+- Never daisy-chain switches more than 2 levels - Daisy chaining switches can create sizable bottlenecks if done wrong. A general rule of thumb is to stick to 2 levels max from the source of the data. For example, a main core switch and one additional level off it.    
 
 ### Example network   
 ![](/assets/images/network1.png)   
