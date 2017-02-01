@@ -4,7 +4,9 @@ layout: article
 ---
 
 Copying boot files to SD card on Ubuntu
----------------------------------------
+---------------------------------------   
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/SLG9xC69A5M?rel=0" frameborder="0" allowfullscreen></iframe>     
+
 When PiNet installs, it generates a folder of SD card files ready to be dropped onto an empty SD card for your Raspberry Pi.
 Although this can be done on your Windows or Mac machine, it is even easier to plug in your SD card to the PiNet server.
 If your server does not have an SD card slot, you may want to try a USB SD card reader.
