@@ -29,7 +29,7 @@ Lets get started!
 
 5.  Enter ```wget --content-disposition http://bit.ly/pinetbeta```
     and hit enter. This downloads the PiNet script. The main script is called ```pinet```.    
-    (note the all new PiNet Jessie is now available in [Alpha for testing](../wheezy-jessie.html).)    
+    (note the all new PiNet Jessie is now available in [Beta for testing](../wheezy-jessie.html).)    
     ![](/assets/images/install-pinet4.jpeg)
 
 6.  Once that completes, enter ```sudo bash pinet``` which will launch
