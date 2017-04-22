@@ -16,25 +16,43 @@ In fact, PiNet requires extremely limited resources to run by default.
 There are though some limited use cases where the server does need to be powerful.    
 
 ### So what type of PC hardware do I need for my PiNet server?    
-This is an extremely wide ranging question and it is impossible to say. A few rough guidelines though for a class set (20) Raspberry Pis would be.  
+This is an extremely wide ranging question and it is impossible to say. A few rough guidelines though for a class set (20) Raspberry Pis can be found below. They are split into Dedicated (if running PiNet on a dedicated machine directly on the hardware) or Virtualisation (if running PiNet/Ubuntu in a virtual machine on top of Windows/Mac OS/Linux).    
 
-#### Minimum   
+#### Dedicated Minimum   
 - Single core 1GHz processor (Intel Celeron or greater)   
 - 1GB of RAM   
 - 20GB of hard disk space   
 - A gigabit ethernet port (100mbit/s is not officially supported)
 
-#### Recommended 
+#### Dedicated Recommended 
 - Duel core 1.5GHz processor (Intel Pentium or greater)   
 - 2GB of RAM   
 - 40GB of hard disk space   
 - A gigabit ethernet port (100mbit/s is not officially supported)   
 
-#### Large setup recommended (80+ Pis)
+#### Dedicated Large setup recommended (80+ Pis)
 - Duel core 2GHz processor (Intel Core I3 or greater)   
 - 4GB of RAM   
 - 40GB of hard disk space   
 - A gigabit ethernet port (100mbit/s is not officially supported)  
+
+#### Virtualisation Minimum   
+- Duel core 1.8GHz processor (Intel Core 2 Duo or greater)     
+- 4GB of RAM (1.5GB allocated to PiNet/Ubuntu)   
+- 20GB of hard disk space (free to be used by PiNet/Ubuntu)   
+- A gigabit ethernet port (100mbit/s is not officially supported)
+
+#### Virtualisation Recommended   
+- Duel core 2.0GHz processor (Intel Core 2 Duo or greater)   
+- 6GB of RAM (2.5GB allocated to PiNet/Ubuntu)  
+- 40GB of hard disk space (free to be used by PiNet/Ubuntu)   
+- A gigabit ethernet port (100mbit/s is not officially supported)
+
+#### Virtualisation Large setup recommended (80+ Pis)
+- Duel core 2GHz processor (Intel Core I3 or greater)   
+- 8GB of RAM (4GB allocated to PiNet/Ubuntu)  
+- 40GB of SSD space (free to be used by PiNet/Ubuntu)  
+- A gigabit ethernet port (100mbit/s is not officially supported) 
    
 For anything greater than 100 Raspberry Pis, it would be recommended to look into port trunking or 10gbit/s core networking.   
 
