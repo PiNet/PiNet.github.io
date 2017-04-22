@@ -1,7 +1,7 @@
-<!-- 
+{% comment %}
 {% include warning.html title="Title" message="Message!"%}
--->
+{% endcomment %}
 
 <div class="alert alert-warning">
-  <strong>{{ include.title }}</strong> {{ include.message }}
+  <strong>{{ include.title }}</strong> - {{ include.message }}
 </div>

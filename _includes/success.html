@@ -1,7 +1,7 @@
-<!-- 
+{% comment %}
 {% include success.html title="Title" message="Message!"%}
--->
+{% endcomment %}
 
 <div class="alert alert-success">
-  <strong>{{ include.title }}</strong> {{ include.message }}
+  <strong>{{ include.title }}</strong> - {{ include.message }}
 </div>
