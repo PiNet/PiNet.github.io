@@ -60,6 +60,10 @@ Assuming you are connecting the SD card to the server (via USB or internal SD ca
     computer. Now insert it into a Raspberry Pi, plug the network cable
     in along with keyboard and mouse and plug in the power. The
     Raspberry Pi should then boot successfully. Don't worry if you get an error complaining about the desktop environment, this is only a notice and not a problem. It only occurs with accounts that have logged directly onto the server.    
-    ![](/assets/images/image36.jpeg)
+    ![](/assets/images/image36.jpeg)   
+   
+## Known issues   
+1. PiNet Wheezy (1.1.8 and previous) - If the PiBoot folder is empty, this can be caused by PiNet misunderstanding your netwok configuration. You can manually download the SD card contents from [here](https://github.com/PiNet/PiNet-Boot/archive/master.zip). Once downloaded and unzipped, open the cmdline.txt file (inside boot folder) and change the ```nbdroot=1.1.1.1```, replacing the ```1.1.1.1``` with the IP address shown on the top right of the PiNet software on the server. Then save the file and copy the contents of the boot folder onto a formatted SD card.     
+   
 
 If the Raspberry Pi fails to boot, check out the [Support section](../support.html).
