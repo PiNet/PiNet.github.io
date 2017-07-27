@@ -20,7 +20,7 @@ Lets get started!
 
 3.  Search for and select “Terminal”. You can also just hit Ctrl + Alt +
     T.   
-    ![](/assets/images/PiNet/Install/03_termintal.jpg) 
+    ![](/assets/images/PiNet/Install/03_terminal.jpg)  
 
 4.  You will then be presented with a terminal. PiNet runs inside a
     terminal window. You may find it useful to resize the terminal
