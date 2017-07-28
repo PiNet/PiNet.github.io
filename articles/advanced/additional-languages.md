@@ -39,9 +39,5 @@ To add a locale to LibreOffice, follow this __example__ for Portuguese.
     - Enter ```tar xvzf hunspell-pt_PT-20170615.tar.gz``` to extract files from archive.  
     - Enter ```cp hunspell-pt_PT-20170615/pt_PT* /usr/share/hunspell/``` to copy files to correct destination.  
     - Enter ```rm -r ./hunspell-pt_PT-20170615.tar.gz ./hunspell-pt_PT-20170615``` to delete temorary downloaded archive and extracted directory.  
-5. Add support for cedilla character
-  - Enter ```echo "GTK_IM_MODULE=cedilla QT_IM_MODULE=cedilla" >> /etc/environment``` to add settings to environment.  
-    - For some reason, this does not work in LibreOffice, but other applications like the console do honor it.  
-    - In LibreOffice, press 'Right-Alt' and ',' keys for cedilla.  
-6. Enter ```exit``` to exit chroot environment.  
-7. Finally, recompress the chroot by from inside the PiNet control panel, selecting ```Other``` followed by ```NBD-recompress``` or enter ```ltsp-update-image /opt/ltsp/armhf```  
+5. Enter ```exit``` to exit chroot environment.  
+6. Finally, recompress the chroot by from inside the PiNet control panel, selecting ```Other``` followed by ```NBD-recompress``` or enter ```ltsp-update-image /opt/ltsp/armhf```  
