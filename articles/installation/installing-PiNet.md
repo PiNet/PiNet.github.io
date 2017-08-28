@@ -14,86 +14,110 @@ Lets get started!
 
 1.  Once the machine reboots, login with your credentials you set up
     earlier.   
-    ![](/assets/images/image11.jpeg)
+    ![](/assets/images/PiNet/Install/01_Login.jpg) 
 
 2.  Select the search button in the top left corner.   
-    ![](/assets/images/install-pinet1.jpeg)
+    ![](/assets/images/PiNet/Install/02_Search_your_computer.jpg) 
 
 3.  Search for and select “Terminal”. You can also just hit Ctrl + Alt +
     T.   
-    ![](/assets/images/install-pinet2.jpeg)
+    ![](/assets/images/PiNet/Install/03_terminal.jpg)  
 
 4.  You will then be presented with a terminal. PiNet runs inside a
     terminal window. You may find it useful to resize the terminal
     window to make it larger or put it in full screen.   
-    ![](/assets/images/install-pinet3.jpeg)
+    ![](/assets/images/PiNet/Install/04_show_terminal.jpg) 
 
 5.  Enter ```wget --content-disposition http://bit.ly/pinetbeta```
     and hit enter. This downloads the PiNet script. The main script is called ```pinet```.    
     (note the all new PiNet Jessie is now available in [Beta for testing](../wheezy-jessie.html).)    
-    ![](/assets/images/install-pinet4.jpeg)
+    ![](/assets/images/PiNet/Install/05_wget_pinet.jpg) 
 
 6.  Once that completes, enter ```sudo bash pinet``` which will launch
     PiNet. A desktop icon will be created when the software installs but 
     you can always use this command to manually launch PiNet.   
-    ![](/assets/images/install-pinet5.jpeg)
+    ![](/assets/images/PiNet/Install/06_sudo_bash_pinet.jpg) 
 
 7.  Enter your password as the application must be run as administrator 
     (nothing will look like it is being entered, this is a Linux security feature so don't worry, it is being entered).   
-    ![](/assets/images/install-pinet6.jpeg)   
+    ![](/assets/images/PiNet/Install/07_sudo_password.jpg)   
           
-9.  PiNet will offer to run a full install, select yes.  
-    ![](/assets/images/install-pinet7.jpeg)   
+8.  PiNet will offer to run a full install, select yes.  
+    ![](/assets/images/PiNet/Install/10_Pinet_Welcome.jpg)   
     
-10. PiNet supports importing user data from an older PiNet server. 
+9. PiNet supports importing user data from an older PiNet server. 
     See the [migration guide](../manage-users/migration.html) for details. Select No.   
-    ![](/assets/images/install-pinet8.jpeg)   
+    ![](/assets/images/PiNet/Install/11_Pinet_Importing_Users.jpg)   
 
 10. Select which release channel you wish to use. If using in a production environment, it is recommended you
-    select stable. If you wish to test out new bleeding edge features, select bleeding edge.   
-    ![](/assets/images/install-pinet9.jpeg)   
+    select Stable. If you wish to test out new bleeding edge features, select Development.   
+    ![](/assets/images/PiNet/Install/12_Release_channels.jpg)   
 
-9.  The install will take roughly 1-2 hours depending on processor speed
+
+11. Select Ok to continue after reading how to select additional software.     
+    ![](/assets/images/PiNet/Install/13_Additional_Software.jpg)   
+    
+
+12. Select any extra software you wish to include.  
+    ( Screenshot shows several non-default selections)    
+    ![](/assets/images/PiNet/Install/14_Extra_Software_Submenu.jpg)   
+
+13. If extra software specified, select Yes to confirm  
+    ![](/assets/images/PiNet/Install/15_Extra_Software_Are_you_sure.jpg)   
+    
+14. If extra software 'Custom-package' selected, enter package name.  
+    ![](/assets/images/PiNet/Install/16_Custom_package.jpg)   
+
+15. If extra software 'Custom-python' selected, enter package name.  
+    ![](/assets/images/PiNet/Install/17_Custom_python_package.jpg)   
+    
+16. The install will take roughly 1-2 hours depending on processor speed
     and internet speed. Select ok and it will start the installation.
     You can now leave it to work.   
-    ![](/assets/images/install-pinet10.jpeg)
+    ![](/assets/images/PiNet/Install/18_Full_Install_info.jpg)
 
-10. Around 1-2 hours later, the extra software dialog will be displayed.
-    Here you can select any additional software you with to install.
-    Libreoffice can be useful for a classroom; it is a free full office
-    suit, similar to Microsoft Office. You can also install a custom
-    package from the software repositories if you know its full name.
-    Once you have finished, select cancel (or finished) to move on.   
-    ![](/assets/images/install-pinet11.jpeg)   
-    ![](/assets/images/install-pinet12.jpeg)   
-
-11. Select yes when asked if you are finished installing software.   
-    ![](/assets/images/install-pinet13.jpeg)
-
-14. You must decide if you need students to have Sudo access on
+17. After 1-2 hours, select choice whether to give students Sudo access on
     the Raspberry Pi. If you intend to work with the GPIO pins on the
     Raspberry Pi they will need it. You can really easily later enable
     or disable Sudo use in the Manage-Users submenu in the main software
     options. If in doubt, is recommended to enable it by selecting yes.   
-    ![](/assets/images/install-pinet14.jpeg)   
+    ![](/assets/images/PiNet/Install/19_Warning_Give_students_sudo.jpg)   
 
-13. If using 2 network interface cards then check the IP address is
+18. If using 2 network interface cards then check the IP address is
     correct. If you are only using 1 (most people), then the default
     will likely be correct. Select yes.   
-    ![](/assets/images/install-pinet15.jpeg)   
+    ![](/assets/images/PiNet/Install/20_IP_Address.jpg)   
 
-12. The operating system will now be compressed. After every change made
+19. Select OK after reading notice about collected statistics.
+    ![](/assets/images/PiNet/Install/21_Stats_usage_clean.jpg)   
+    
+20. Select OK after reading notice about additional information.
+    ![](/assets/images/PiNet/Install/22_Additional_Information.jpg)   
+        
+21. (Optional) Select OK after entering nearest major city.
+    ![](/assets/images/PiNet/Install/23_Nearest_major_city_2_with_OK.jpg)   
+            
+22. (Optional) Select OK after entering organisation type.
+    ![](/assets/images/PiNet/Install/24_Organisation_type.jpg)   
+
+23. (Optional) Select OK after entering school/organisation name.
+    ![](/assets/images/PiNet/Install/25_School_Org_name.jpg)   
+
+24. Select OK after reading how to edit additional information.
+    ![](/assets/images/PiNet/Install/26_Additional_info_thanks.jpg)   
+    
+25. The operating system will now be compressed. After every change made
     to the operating system, it must be recompressed which takes roughly
     5 minutes normally. Select ok.   
-    ![](/assets/images/install-pinet16.jpeg)
+    ![](/assets/images/PiNet/Install/27_Compression.jpg)
 
-15. PiNet installation is now complete. The server has generated an
+26. PiNet installation is now complete. The server has generated an
     SD card image which is located in /home/YourUser/piboot.
     You need to copy these files onto a blank formatted SD card and
     connect the Raspberry Pi to the network.   
-    ![](/assets/images/install-pinet17.jpeg)
+    ![](/assets/images/PiNet/Install/28_Main_install_complete.jpg)
 
-16. You are recommended to check the Backup section of this manual on
+27. You are recommended to check the Backup section of this manual on
     setting up an automatic backup of your students work to an external
     hard drive in case of hard drive failure.   
 
