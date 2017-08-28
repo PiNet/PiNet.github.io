@@ -1,10 +1,10 @@
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins_dir:     ./_plugins
 exclude: [bin, CNAME, Gemfile, Gemfile.lock, README.md]
 permalink: /blog/:year/:month/:day/:title.html
 markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-gems:
+plugins:
 - jekyll-sitemap
