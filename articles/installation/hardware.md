@@ -25,31 +25,31 @@ This is an extremely wide ranging question and it is impossible to say. A few ro
 - A gigabit ethernet port (100mbit/s is not officially supported)
 
 #### Dedicated Recommended 
-- Duel core 1.5GHz processor (Intel Pentium or greater)   
+- Dual core 1.5GHz processor (Intel Pentium or greater)   
 - 2GB of RAM   
 - 40GB of hard disk space   
 - A gigabit ethernet port (100mbit/s is not officially supported)   
 
 #### Dedicated Large setup recommended (80+ Pis)
-- Duel core 2GHz processor (Intel Core I3 or greater)   
+- Dual core 2GHz processor (Intel Core I3 or greater)   
 - 4GB of RAM   
 - 40GB of hard disk space   
 - A gigabit ethernet port (100mbit/s is not officially supported)  
 
 #### Virtualisation Minimum   
-- Duel core 1.8GHz processor (Intel Core 2 Duo or greater)     
+- Dual core 1.8GHz processor (Intel Core 2 Duo or greater)     
 - 4GB of RAM (1.5GB allocated to PiNet/Ubuntu)   
 - 20GB of hard disk space (free to be used by PiNet/Ubuntu)   
 - A gigabit ethernet port (100mbit/s is not officially supported)
 
 #### Virtualisation Recommended   
-- Duel core 2.0GHz processor (Intel Core 2 Duo or greater)   
+- Dual core 2.0GHz processor (Intel Core 2 Duo or greater)   
 - 6GB of RAM (2.5GB allocated to PiNet/Ubuntu)  
 - 40GB of hard disk space (free to be used by PiNet/Ubuntu)   
 - A gigabit ethernet port (100mbit/s is not officially supported)
 
 #### Virtualisation Large setup recommended (80+ Pis)
-- Duel core 2GHz processor (Intel Core I3 or greater)   
+- Dual core 2GHz processor (Intel Core I3 or greater)   
 - 8GB of RAM (4GB allocated to PiNet/Ubuntu)  
 - 40GB of SSD space (free to be used by PiNet/Ubuntu)  
 - A gigabit ethernet port (100mbit/s is not officially supported) 
