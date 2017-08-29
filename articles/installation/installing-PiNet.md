@@ -28,9 +28,13 @@ Lets get started!
     window to make it larger or put it in full screen.   
     ![](/assets/images/PiNet/Install/04_show_terminal.jpg) 
 
-5.  Enter ```wget --content-disposition http://bit.ly/pinetbeta```
-    and hit enter. This downloads the PiNet script. The main script is called ```pinet```.    
-    (note the all new PiNet Jessie is now available in [Beta for testing](../wheezy-jessie.html).)    
+5.  To install PiNet Jessie (Stable), enter ```wget --content-disposition http://links.pinet.org.uk/jessie-stable-pinet```
+    and hit enter. This downloads the PiNet script. The main script is called ```pinet```. 
+      
+    <div class="alert alert-info">
+      <strong>PiNet Jessie</strong> - Note that PiNet Jessie is now recommended over PiNet Wheezy (version 1.1.9 and below). PiNet Wheezy support will end at the end of 2017.
+    </div> 
+    For details over other PiNet versions, [see here](versions.html).   
     ![](/assets/images/PiNet/Install/05_wget_pinet.jpg) 
 
 6.  Once that completes, enter ```sudo bash pinet``` which will launch
