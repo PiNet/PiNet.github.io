@@ -35,7 +35,7 @@ Note - Some documentation pages may still have mentions of Raspi-LTSP, ignore th
 - ### [Updating SD card image](sd-card-update.html)   
 - ### [Shared folders](shared-folders/shared-folders.html)   
 - ### Epoptes classroom management software (Documentation not complete yet)   
-- ### [PiNet Wheezy/Jessie](wheezy-jessie.html)
+- ### [PiNet different versions](installation/versions.html)
 
 ## [Advanced options](advanced/advanced.html)   
 - ### [PiNet Benchmarks](advanced/benchmarks.html)   

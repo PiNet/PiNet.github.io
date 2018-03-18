@@ -16,23 +16,25 @@ PiNet includes built in support to upgrade from different releases while still k
    
 ## PiNet release support
 The following versions have been released by the Raspberry Pi Foundation.   
-- ### Stretch   
+### Stretch   
   - Released by Raspberry Pi Foundation in June 2017.
   - Not currently supported by PiNet.
   - Soon to be available in [Stable](https://github.com/PiNet/PiNet/tree/stretch-stable), [Beta](https://github.com/PiNet/PiNet/tree/stretch-beta) and [Alpha](https://github.com/PiNet/PiNet/tree/stretch-alpha) releases.
   - Release PiNet 1.3.x onwards. (not yet available)
+  - Status can be followed [over on the Github Issue](https://github.com/PiNet/PiNet/issues/142).
   
-- ### Jessie   
+### Jessie   
   - Released by Raspberry Pi Foundation in September 2015.
-  - Still receiving updates from the Raspberry Pi Foundation.
+  - No longer receiving updates from the Raspberry Pi Foundation, but receiving updates from the Debian team.
   - Recommended version of PiNet.
   - Available in [Stable](https://github.com/PiNet/PiNet/tree/jessie-stable), [Beta](https://github.com/PiNet/PiNet/tree/jessie-beta) and [Alpha](https://github.com/PiNet/PiNet/tree/jessie-alpha) releases.
   - Release PiNet 1.2.x onwards.
   - [Debian Long Term Support](https://www.debian.org/News/2016/20160425) team security support provided until 30th April 2020.
+  - PiNet support provided until at a minimum of 30th September 2018.
   - Install Stable version with the following command   
   ```wget --content-disposition http://links.pinet.org.uk/jessie-stable-pinet```
 
-- ### Wheezy 
+### Wheezy 
   - Released by Raspberry Pi Foundation in June 2012.
   - Final update released by Raspberry Pi Foundation in March 2016.
   - **No longer recommended** for new PiNet installations.
