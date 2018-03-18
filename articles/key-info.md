@@ -63,12 +63,10 @@ This page contains some key information for PiNet that may be useful, especially
 ## Project
 - The project is completely open source and free. It contains no advertising.
 - The lead developer is [Andrew Mulholland](http://pi.gbaman.info/?page_id=90).
-- The main code is split into 2 branches, stable and dev (also know as bleeding edge). Dev branch has new experimental features that may or may not make it into PiNet stable.
-- The project code stable branch can be found at [https://github.com/PiNet/PiNet](https://github.com/PiNet/PiNet).
-- The project code dev branch can be found at [https://github.com/PiNet/PiNet/tree/dev](https://github.com/PiNet/PiNet/tree/dev).
+- The code for the project is split into a set of branches under each Raspbian Release (in general, Alpha, Beta and Stable). More information on this [can be found here](versions.html)
 - The project documentation code can be found at [https://github.com/PiNet/PiNet.github.io](https://github.com/PiNet/PiNet.github.io).
 - The main site for the project can be found at [http://PiNet.org.uk](http://PiNet.org.uk).
-- PiNet is mainly written in BASH with a number of supporting functions also written in Python 3.
+- PiNet is developed in a mixture of Bash and Python 3, with all new code being written in Python 3.
 
 ## Networking
 - PiNet server is by default completely passive on a network. **It does not include a DHCP server.** It just Raspberry Pis to be able to connect to it.
