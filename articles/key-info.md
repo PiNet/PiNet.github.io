@@ -22,11 +22,13 @@ This page contains some key information for PiNet that may be useful, especially
   - Raspberry Pi 1 Model B+
   - Raspberry Pi 2 Model B   
   - Raspberry Pi 3 Model B (PiNet Wheezy and Jessie now)    
+  - Raspberry Pi 3 Model B+ (PiNet Jessie/Stretch only, boot files version 24 onwards)  
 - Raspberry Pi based hardware not officially supported includes
   - Raspberry Pi 1 Model A
   - Raspberry Pi 1 Model A+
   - Raspberry Pi 1 Compute Module
-  - Raspberry Pi Zero    
+  - Raspberry Pi Zero   
+  - Raspberry Pi Zero W    
 - Hardware that will never be supported as clients includes
   - Banana Pi
   - Odroid C1
