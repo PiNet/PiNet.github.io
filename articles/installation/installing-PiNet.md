@@ -53,6 +53,9 @@ Lets get started!
     See the [migration guide](../manage-users/migration.html) for details. Select No.   
     ![](/assets/images/PiNet/Install/11_Pinet_Importing_Users.jpg)   
 
+{% include warning.html title="Note" message="PiNet Jessie right now only includes support for the Raspberry Pi 3 B+ in the Alpha branch. If you wish to use PiNet with a 3B+, please make sure you are on the Alpha branch."%}    
+
+
 10. Select which release channel you wish to use. If using in a production environment, it is recommended you
     select Stable. If you wish to test out new bleeding edge features, select Development.   
     ![](/assets/images/PiNet/Install/12_Release_channels.jpg)   
