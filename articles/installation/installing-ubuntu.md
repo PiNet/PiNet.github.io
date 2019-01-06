@@ -30,10 +30,9 @@ Select the one you are going to create the installation DVD from. You will need 
 
 ## Installing Ubuntu 16.04
 
+{% include danger.html title="Warning" message="The process below will involve completely wiping the hard drive of the chosen server machine. All data (unless you choose to partition the drive) will be lost."%}
 
-Please make sure your server machine has no important information left
-on it, as we will be ***deleting everything***. You have been warned!
-You also need a working (if possible unfiltered) Internet connection.
+For the following process, you will need a working (**if possible unfiltered**) Internet connection.
 Wired Ethernet is preferable for installation.
 
 1.  Insert your Ubuntu 16.04 installation disk into the computer you
