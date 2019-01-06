@@ -19,4 +19,17 @@ Although a complex job to do in the background, PiNet allows for custom config.t
 2. Select "Custom-config".   
 3. The custom config file can now be edited. Make sure to add your custom parameters below the dotted line.   
 4. Once finished editing, hit ctrl+x, followed by y, then enter to save the file.   
-5. Finally, run Update-SD to push out the newly created config.txt file. The next time the Raspberry Pis reboot, they will update their config.txt file.   
+5. PiNet will then auto run Update-SD and recompress the operating system. Once this is complete, simply reboot all the Raspberry Pis and they will pull in the new config.txt file, then reboot to apply it.
+
+## Example - Enabling the OpenGL driver
+1. Select the "Other" submenu from the PiNet main menu.   
+2. Select "Custom-config".
+3. Add the following lines into the file   
+  ```
+  dtoverlay=vc4-kms-v3d   
+  gpu_mem=128
+  ```
+  ![Custom config file screenshot](/assets/images/custom-config1.png)
+4. Once finished editing, hit ctrl+x, followed by y, then enter to save the file.
+5. PiNet will then auto run Update-SD and recompress the operating system. Once this is complete, simply reboot all the Raspberry Pis and they will pull in the new config.txt file, then reboot to apply it.
+6. Note as well, to make sure the required Raspbian pages are installed to go alongside the driver, put the following packages into Install-Program ```xcompmgr libgl1-mesa-dri mesa-utils```.   
