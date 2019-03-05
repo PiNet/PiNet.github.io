@@ -1,4 +1,7 @@
 # PiNet Screens
+
+{% include warning.html title="Warning" message="PiNet Screens is still an experimental application that is being actively developed."%}   
+
 PiNet Screens is a web based management tool for configuring PiNet to be used with multiple display screens across an organisation.   
 
 The features of the system include:
@@ -45,6 +48,16 @@ To have anything display on the Raspberry Pis, content items must be created. Th
 
 Once content has been added, you can see a list of clients it is currently running on, along with removing the content if needs be.   
 
+
+### User management   
+The PiNet Screens system includes a simple user management system that is separate from the main web tool. To run it, launch a terminal and run the following commands.   
+```
+sudo su pinetscreens
+python3 /opt/PiNet-Screens/pinet_screens/manage_users.py
+```   
+![](../../assets/images/screens-users.jpg)    
+From here, you can create a user, remove a user and change the users password.   
+
 ## Debugging / Issues
 ### PiNet Screens isn't accessible when navigating to its URL.
 - Try restarting the web server, this can be done with ```sudo service pinetscreens restart```.   
@@ -56,3 +69,6 @@ This usually means the permissions to the files/folders edited by the apply are 
 The permissions required include:   
 - Read/write permission to the `/home/shared/screens` folder.   
 - (Group level only to pinetscreen) read/write permission to `/opt/ltsp/armhf/etc/lts.conf` file.
+
+
+{% include info.html title="Info" message="PiNet Screens was commissioned by Decora Blind Systems Ltd and permission has been agreed to allow the application to be released open source under the MIT License."%}
