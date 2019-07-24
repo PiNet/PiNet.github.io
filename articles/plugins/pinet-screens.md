@@ -52,8 +52,9 @@ Once content has been added, you can see a list of clients it is currently runni
 ### User management   
 The PiNet Screens system includes a simple user management system that is separate from the main web tool. To run it, launch a terminal and run the following commands.   
 ```
-sudo su pinetscreens
-python3 /opt/PiNet-Screens/pinet_screens/manage_users.py
+sudo su pinetscreens -p
+cd /opt/PiNet-Screens/pinet_screens
+python3 manage_users.py
 ```   
 ![](../../assets/images/screens-users.jpg)    
 From here, you can create a user, remove a user and change the users password.   
