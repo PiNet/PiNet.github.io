@@ -6,9 +6,9 @@ layout: article
 Installing PiNet
 ---------------------   
 
-{% include danger.html title="Warning" message="PiNet should be installed onto a fresh Ubuntu 16.04 installation. Do not install PiNet onto an Ubuntu installation running other services as PiNet can not be easily uninstalled."%}   
+{% include danger.html title="Warning" message="PiNet should be installed onto a fresh Ubuntu 18.04 installation. Do not install PiNet onto an Ubuntu installation running other services as PiNet can not be easily uninstalled."%}   
    
-Now you have an Ubuntu 16.04 server setup, it is time to actually install PiNet. PiNet is run through a terminal.
+Now you have an Ubuntu 18.04 server setup, it is time to actually install PiNet. PiNet is run through a terminal.
 This allows you use it locally or even run the software over SSH!
 Lets get started!
 

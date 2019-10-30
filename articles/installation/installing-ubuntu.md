@@ -10,32 +10,32 @@ own Operating Systems but based on the Linux Kernel. Ubuntu is one of
 these distributions. It was specifically designed to be really simple
 and easy to use for new users of Linux and is the single most popular
 Linux distribution. The current LTS (Long Term Support) version of
-Ubuntu is 16.04 (with the previous being 14.04). 16.04 has guaranteed
-software and security updates till April 2021.   
-PiNet also maintains support for the previous Ubuntu 14.04 release, but it is highly recommended with a new install to use Ubuntu Desktop 16.04.
+Ubuntu is 18.04 (with the previous being 16.04). 18.04 has guaranteed
+software and security updates till April 2023.   
+PiNet also maintains support for the previous Ubuntu 16.04 release, but it is highly recommended with a new install to use Ubuntu Desktop 18.04.
 
-The codename for 16.04 is Xenial Xerus.
+The codename for 18.04 is Xenial Xerus.
 
 # Installation
 
 ## Creating Ubuntu Installation Disk
 First you need to create an installation media for installing Ubuntu on your server computer. This can be in the form of
 a disk or a USB flash drive. Creating and booting from a disk is easier for beginners.   
-Ubuntu have a number of guides for different operating systems for creating an Ubuntu 16.04 installation disk from 
+Ubuntu have a number of guides for different operating systems for creating an Ubuntu 18.04 installation disk from 
 different operating systems.   
 Select the one you are going to create the installation DVD from. You will need a standard writeable DVD (and not a CD) for this.      
 - [Windows](http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows)   
 - [Mac](http://www.ubuntu.com/download/desktop/burn-a-dvd-on-mac-osx)   
 - [Ubuntu Linux](http://www.ubuntu.com/download/desktop/burn-a-dvd-on-ubuntu)   
 
-## Installing Ubuntu 16.04
+## Installing Ubuntu 18.04
 
 {% include danger.html title="Warning" message="The process below will involve completely wiping the hard drive of the chosen server machine. All data (unless you choose to partition the drive) will be lost."%}
 
 For the following process, you will need a working (**if possible unfiltered**) Internet connection.
 Wired Ethernet is preferable for installation.
 
-1.  Insert your Ubuntu 16.04 installation disk into the computer you
+1.  Insert your Ubuntu 18.04 installation disk into the computer you
     intend to use as a server
 
 2.  Shutdown the computer
