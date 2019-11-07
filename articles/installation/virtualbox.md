@@ -23,7 +23,7 @@ On Intel based processors this is called ```Intel Virtualisation Technology``` o
 
 ## Ok, lets get started
 
-1. Download Ubuntu 16.04 for your platform (32 bit or 64 bit, if in doubt download the 32 bit version) from [here](http://www.ubuntu.com/download/desktop/).
+1. Download Ubuntu 18.04 for your platform (32 bit or 64 bit, if in doubt download the 32 bit version) from [here](http://www.ubuntu.com/download/desktop/).
 2. Download Virtualbox platform package for your host operating system (aka Windows, Mac or Linux) from [here](https://www.virtualbox.org/wiki/Downloads). This should be what your computer is currently running.   
 3. Once downloaded, run the installer selecting all the default options.   
 4. Once installed, launch Virtualbox.    
@@ -74,7 +74,7 @@ If you do not know which is the wired and wireless card, Googling their names ma
 
 ### Guest additions   
 It can be a good idea to install the Virtualbox guest additions. These are additional software modules/drivers to improve compatibility with Virtualbox.   
-Once you install them, a few additional features are added, including support for bidirectional copy and paste support between the virtual machine and the host operating system, more importantly it adds the missing screen resolution detection modules for Ubuntu 14.04, allowing you to resize the screen.    
+Once you install them, a few additional features are added, including support for bidirectional copy and paste support between the virtual machine and the host operating system, more importantly it adds the missing screen resolution detection modules for Ubuntu 18.04, allowing you to resize the screen.    
 To install them, launch the Ubuntu virtual machine, open a terminal and enter    
 ```sudo apt-get install -y virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11```   
 

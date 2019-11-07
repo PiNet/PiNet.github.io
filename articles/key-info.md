@@ -15,7 +15,7 @@ This page contains some key information for PiNet that may be useful, especially
 - PiNet is based on the [Linux Terminal Server Project](http://www.ltsp.org/).   
 
 ## Hardware requipments
-- The server must be able to reliably run Ubuntu 16.04 and have a gigabit ethernet port. There are no minimum hardware requirements provided, but a machine with at least 2gb of RAM is recommended.
+- The server must be able to reliably run Ubuntu 18.04 and have a gigabit ethernet port. There are no minimum hardware requirements provided, but a machine with at least 2gb of RAM is recommended.
 - The supported Raspberry Pi models are
   - Raspberry Pi 1 Model B revision 1 - Can sometimes have issues due to very limited RAM.
   - Raspberry Pi 1 Model B revision 2
