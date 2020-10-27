@@ -65,6 +65,11 @@ A number of reasons
    - Any new rewrites would have to include a fully supported upgrade pathway from previous versions of PiNet (this is much harder than it sounds).
 3. **I simply don't want to keep folks hope up that a new version might land "any day now".** With hundreds of hours of time needed to bring PiNet back up to scratch for classrooms, I am not going to have this amount of time available to me any time soon.   
 
+### Will my PiNet server stop working?
+Nope, your PiNet server will continue to work as it has always. This announcement is simply to confirm that there will be no further development of PiNet, along with announcing the end of support for existing PiNet servers, will be the end of the 2020/2021 academic year.   
+Keep in mind though, Debian Stretch (which Raspbian Stretch is based on) end of life for security updates is July 2022. Debian Jessie has already reached end of life for security updates in June 2020. More details can be found [here](https://wiki.debian.org/LTS).   
+In addition to this, Ubuntu 16.04 reaches end of support in April 2021 and Ubuntu 18.04 reaches end of support in April 2023.  More details can be found [here](https://wiki.ubuntu.com/Releases).    
+
 ### I am currently using PiNet, what should I migrate to?
 Although it doesn't provide exactly the same functionality, **the closest alternative is [PiServer](https://www.raspberrypi.org/blog/piserver/), from the Raspberry Pi Foundation.**   
 PiServer is an excellent tool and very powerful. Although there are some classroom specific features that are missing from it, it does include support for some nice new features that never made their way to PiNet like SD-card-less booting for newer Pi models.   
