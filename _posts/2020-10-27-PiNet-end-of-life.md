@@ -40,7 +40,7 @@ I want to thank everyone over the years that have been involved with the project
 - [Tim Golden](https://twitter.com/tjguk) for his repeated engineering support.
 - Tim Gamble (Dalriada School) and [John Bustard](https://pure.qub.ac.uk/en/persons/john-bustard) (Queen's University) for their support towards direction for the A-Level Computing project (*Raspberry Pi Classroom and Network Management Software*) and Computer Science degree final year project (*Wireless Network Booting of Low Power Computers*).   
 - The entire [Northern Ireland Raspberry Jam](https://twitter.com/NIRaspJam) team, for putting up with my constant testing of new features at Raspberry Jam events.
-- The amazing community of educators that were willing to give PiNet and a go and provide feedback. To name a few, [Alan O'Donohoe](https://twitter.com/teknoteacher), [Bob Irving](https://twitter.com/birv2), [Christine Harvey](https://twitter.com/TeachesCompSci) and [Sam Page](https://twitter.com/samdotpage).
+- The amazing community of educators that were willing to give PiNet and a go and provide feedback. To name a few, [Alan O'Donohoe](https://twitter.com/teknoteacher), [David Whale](https://twitter.com/whaleygeek), [Bob Irving](https://twitter.com/birv2), [Christine Harvey](https://twitter.com/TeachesCompSci) and [Sam Page](https://twitter.com/samdotpage).
 - [Amy Mather](https://twitter.com/MiniGirlGeek) and Andy Hunt for their fantastic artwork, used on the website and within the software, along with [John Lemieux](https://www.flickr.com/photos/21051229@N06/7108632527) for his beautiful desktop background, used by PiNet.   
 
 Finally, I want to thank all of the fantastic Raspberry Pi community, for their support over the years.    
