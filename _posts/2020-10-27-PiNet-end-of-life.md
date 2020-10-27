@@ -3,7 +3,7 @@ title: "PiNet End of Life Announcement"
 layout: blog
 ---
 
-![](/assets/images/Raspberry-PI-kids_Pi-Net.jpg)
+![](/assets/images/Raspberry-Pi-kids_PiNet-logo.jpg)
 
 ## A bit of background
 
